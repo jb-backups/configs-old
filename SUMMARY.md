@@ -4,8 +4,8 @@
 
 ## Language
 
-* [NodeJS](nodejs.md)
-* [Ruby](ruby.md)
+* [NodeJS](language-node.md)
+* [Ruby](language-ruby.md)
 
 ## Console
 
