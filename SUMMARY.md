@@ -1,7 +1,11 @@
 # Summary
 
 * [Introduction](README.md)
-* [Extensions](EXTENSION.md)
+
+## System
+
+* [Driver](driver.md)
+* [Font](font.md)
 
 ## Language
 
@@ -26,6 +30,7 @@
 ## Softwares
 
 * [Default](softwares/default.md)
+* [Browser extension](EXTENSION.md)
 * [Open Emu](softwares/open-emu.md)
 * [Macbook Terminal](softwares/terminal.md)
 
