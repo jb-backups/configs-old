@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Extensions](EXTENSION.md)
 
 ## Language
 
