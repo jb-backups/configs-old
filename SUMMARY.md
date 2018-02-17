@@ -9,3 +9,9 @@
 
 ## Console
 
+* [Homebrew](console/homebrew.md)
+* Git
+* npm
+* [Oh My Zsh](console/consoleoh-my-zsh.md)
+* ssh
+
