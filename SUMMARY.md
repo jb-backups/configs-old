@@ -22,3 +22,13 @@
 * [Sublime Text](text-editor/sublime-text.md)
 * [Visual Studio Code](text-editor/visual-studio-code.md)
 
+## Tools
+
+* [Vagrant](tools/toolvagrant.md)
+
+## Softwares
+
+* [Default](softwares/softwaredefault.md)
+* [Open Emu](softwares/softwareopen-emu.md)
+* [Macbook Terminal](softwares/softwareterminal.md)
+
