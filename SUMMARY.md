@@ -4,8 +4,8 @@
 
 ## System
 
-* [Driver](driver.md)
-* [Font](font.md)
+* [Driver](system/driver.md)
+* [Font](system/font.md)
 
 ## Language
 
@@ -30,7 +30,7 @@
 ## Softwares
 
 * [Default](softwares/default.md)
-* [Browser extension](EXTENSION.md)
+* [Browser extension](software/browser-extension.md)
 * [Open Emu](softwares/open-emu.md)
 * [Macbook Terminal](softwares/terminal.md)
 
