@@ -6,7 +6,6 @@
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
 ```
 
-####
 
 #### Install node
 
@@ -14,7 +13,6 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | b
 nvm install --lts
 ```
 
-####
 
 #### Install yarn
 
@@ -22,7 +20,6 @@ nvm install --lts
 npm i -g yarn
 ```
 
-####
 
 #### Install global modules
 
@@ -36,14 +33,13 @@ or
 yarn global add nodemon create-react-app gitignore yo generator-editorconfig
 ```
 
-####
 
 #### Link to packages
 
 * [create-react-app](https://www.npmjs.com/package/create-react-app)
 * [gitignore](https://www.npmjs.com/package/gitignore)
 * [yo](http://yeoman.io)
-  * generator-editorconfig
+  * [generator-editorconfig](https://www.npmjs.com/package/generator-editorconfig)
 
 
 
