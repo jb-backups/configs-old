@@ -4,16 +4,16 @@
 
 ## Language
 
-* [NodeJS](language-node.md)
-* [Ruby](language-ruby.md)
+* [NodeJS](language/node.md)
+* [Ruby](language/ruby.md)
 
 ## Console
 
 * [Homebrew](console/homebrew.md)
-* Git
-* npm
-* [Oh My Zsh](console/consoleoh-my-zsh.md)
-* ssh
+* [Git](console/git.md)
+* [npm](console/npm.md)
+* [Oh My Zsh](console/oh-my-zsh.md)
+* [ssh](console/ssh.md)
 
 ## Text Editor
 
@@ -24,11 +24,11 @@
 
 ## Softwares
 
-* [Default](softwares/softwaredefault.md)
-* [Open Emu](softwares/softwareopen-emu.md)
-* [Macbook Terminal](softwares/softwareterminal.md)
+* [Default](softwares/default.md)
+* [Open Emu](softwares/open-emu.md)
+* [Macbook Terminal](softwares/terminal.md)
 
 ## Tools
 
-* [Vagrant](tools/toolvagrant.md)
+* [Vagrant](tools/vagrant.md)
 
