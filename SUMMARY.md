@@ -4,7 +4,7 @@
 
 ## Language
 
-* [NodeJS](chapter1.md)
+* [NodeJS](nodejs.md)
 * [Ruby](ruby.md)
 
 ## Console
