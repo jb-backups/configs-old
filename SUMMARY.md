@@ -29,10 +29,10 @@
 
 ## Softwares
 
-* [Default](softwares/default.md)
+* [Default](software/default.md)
 * [Browser extension](software/browser-extension.md)
-* [Open Emu](softwares/open-emu.md)
-* [Macbook Terminal](softwares/terminal.md)
+* [Open Emu](software/open-emu.md)
+* [Macbook Terminal](software/terminal.md)
 
 ## Tools
 
