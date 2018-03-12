@@ -1,6 +1,6 @@
 # Mac command lines
 
-## [Homerew](https://brew.sh/)
+## [Brew](https://brew.sh/)
 
 ### Install `brew` command line
 
@@ -18,24 +18,34 @@ brew tap caskroom/fonts
 ### Install Softwares with `cask`
 
 ``` bash
-# Required
-brew cask install cheatsheet
-brew cask install cleanmymac
-brew cask install command-tab-plus
-
 # Browser
+brew cask install blisk
 brew cask install brave
 brew cask install google-chrome
 brew cask install google-chrome-canary
+brew cask install chromium
 brew cask install firefox
 brew cask install firefox-developer-edition
+brew cask install firefox-nightly
 brew cask install opera
 brew cask install opera-developer
 
+# Message
+brew cask install messenger
+brew cask install franz
+
 # Developer
-brew cask install visual-studio-code
+brew cask install hyper
+brew cask install iterm2
 brew cask install sublime-text
+brew cask install visual-studio-code
+
+# Developer Extra
+brew cask install dash
 brew cask install docker
+brew cask install github
+brew cask install gitkraken
+brew cask install sourcetree
 brew cask install insomnia
 brew cask install postman
 
@@ -44,30 +54,24 @@ brew cask install datagrip
 brew cask install navicat-for-postgresql
 brew cask install pgadmin4
 
-# Developer Extra
-brew cask install hyper
-brew cask install iterm2
-brew cask install github
-brew cask install gitkraken
-brew cask install sourcetree
-
-# Design
-brew cask install gimp
-brew cask install aseprite
-brew cask install magicavoxel
+# Music
+brew cask install spotify
+brew cask install vlc
 
 # Game
 brew cask install battle-net
 brew cask install openemu
 brew cask install steam
 
-# Music
-brew cask install spotify
-brew cask install vlc
+# Utility
+brew cask install cheatsheet
+brew cask install cleanmymac
+brew cask install command-tab-plus
 
-# Message
-brew cask install messenger
-brew cask install franz
+# Design
+brew cask install gimp
+brew cask install aseprite
+brew cask install magicavoxel
 
 # Other
 brew cask install bartender
@@ -107,7 +111,21 @@ mas signin mas@example.com "ZdkM4f$gzF;gX3ABXNLf8KcCt.x.np"
 ### Install Softwares with `mas`
 
 ``` bash
-# Required
+# Apple
+mas install 409183694     # Keynote
+mas install 409203825     # Numbers
+mas install 409201541     # Pages
+
+# Browser
+mas install 1077036385    # Fluid Browser
+
+# Message
+mas install 803453959     # Slack
+mas install 1176895641    # Spark
+mas install 946399090     # Telegram Desktop
+mas install 1147396723    # WhatsApp
+
+# Utility
 mas install 443987910     # 1password
 mas install 935235287     # Encrypto
 mas install 775737590     # iA Writer
@@ -115,11 +133,8 @@ mas install 884952790     # iTranslate
 mas install 441258766     # Magnet
 mas install 646295438     # RAR Extractor Lite
 
-# Browser
-mas install 1077036385    # Fluid Browser
-
 # Design
-824171161 Affinity Designer
+mas install 824171161     # Affinity Designer
 mas install 863486266     # Autodesk SketchBook
 mas install 1289583905    # Pixelmator Pro
 mas install 1178074963    # Tayasui Sketches
@@ -129,17 +144,6 @@ mas install 973134470     # Be Focused
 mas install 1018859486    # Countdown
 mas install 1017470484    # Next Meeting
 mas install 1278508951    # Trello
-
-# Message
-mas install 803453959     # Slack
-mas install 1176895641    # Spark
-mas install 946399090     # Telegram Desktop
-mas install 1147396723    # WhatsApp
-
-# Apple
-mas install 409183694     # Keynote
-mas install 409203825     # Numbers
-mas install 409201541     # Pages
 
 # Other
 mas install 836505650     # Battery Monitor
