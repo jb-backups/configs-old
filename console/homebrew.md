@@ -29,6 +29,7 @@ brew cask install firefox-developer-edition
 brew cask install firefox-nightly
 brew cask install opera
 brew cask install opera-developer
+brew cask install torbrowser
 
 # Message
 brew cask install messenger
@@ -40,6 +41,7 @@ brew cask install hyper
 brew cask install iterm2
 brew cask install sublime-text
 brew cask install visual-studio-code
+brew cask install webstorm
 
 # Developer Extra
 brew cask install dash
@@ -56,6 +58,7 @@ brew cask install navicat-for-postgresql
 brew cask install pgadmin4
 
 # Music
+brew cask install deezer
 brew cask install spotify
 brew cask install vlc
 
