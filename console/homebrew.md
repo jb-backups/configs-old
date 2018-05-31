@@ -35,6 +35,7 @@ brew cask install messenger
 brew cask install franz
 
 # Developer
+brew cask install atom
 brew cask install hyper
 brew cask install iterm2
 brew cask install sublime-text
@@ -67,6 +68,7 @@ brew cask install steam
 brew cask install cheatsheet
 brew cask install cleanmymac
 brew cask install command-tab-plus
+brew cask install etcher
 
 # Design
 brew cask install gimp
