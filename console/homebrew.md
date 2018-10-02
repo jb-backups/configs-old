@@ -25,7 +25,7 @@ brew cask install google-chrome
 brew cask install google-chrome-canary
 brew cask install chromium
 brew cask install firefox
-brew cask install firefox-developer-edition
+brew cask install homebrew/cask-versions/firefox-developer-edition
 brew cask install firefox-nightly
 brew cask install opera
 brew cask install opera-developer
