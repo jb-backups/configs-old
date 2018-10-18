@@ -88,6 +88,12 @@ brew cask install fliqlo
 brew cask install padbury-clock
 ```
 
+### Install Driver wirh `cask`
+
+```
+homebrew/cask-drivers/razer-synapse
+```
+
 ### Install Font with `cask`
 
 ```bash
