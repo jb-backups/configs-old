@@ -232,8 +232,9 @@ brew cask install vlc
 Programas para designer: 
 
 ```
-brew cask install gimp
+brew cask install blender
 brew cask install aseprite
+brew cask install gimp
 brew cask install magicavoxel
 ```
 
