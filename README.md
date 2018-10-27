@@ -113,6 +113,7 @@ Fontes que você vai precisar para programar no mac:
 ```
 brew cask install homebrew/cask-fonts/font-fira-code
 brew cask install homebrew/cask-fonts/font-source-code-pro
+brew cask install font-sans-forgetica
 ```
 
 ### Git
