@@ -17,13 +17,9 @@ Primeiramente instalar os apps da App Store:
 
 - Message
 	- Airmail
-	- Slack
 	- Spark
-	- Telegram Desktop
-	- WhatsApp
 
 - Utility
-	- 1password
 	- iA Writer
 	- Magnet
 
@@ -218,8 +214,12 @@ brew cask install pgadmin4
 Programas de mensagem:
 
 ```
-brew cask install messenger
+brew cask install discord
 brew cask install franz
+brew cask install messenger
+brew cask install slack
+brew cask install telegram-desktop
+brew cask install whatsapp
 ```
 
 Programas de música e mídia: 
@@ -250,6 +250,7 @@ brew cask install steam
 Utilitários:
 
 ```
+brew cask install 1password
 brew cask install bartender
 brew cask install cheatsheet
 brew cask install cleanmymac
