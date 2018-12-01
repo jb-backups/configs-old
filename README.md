@@ -256,6 +256,7 @@ brew cask install cheatsheet
 brew cask install cleanmymac
 brew cask install command-tab-plus
 brew cask install etcher
+brew cask install vanilla
 brew cask install virtualbox
 brew cask install webtorrent
 ```
