@@ -3,30 +3,6 @@
 
 Tutorial para configurar o macOS.
 
-## App Store
-
-Primeiramente instalar os apps da App Store:
-
-- Apple Office
-	- Keynote
-	- Numbers
-	- Pages
-
-- Browser
-	- Fluid Browser
-
-- Message
-	- Airmail
-	- Spark
-
-- Utility
-	- iA Writer
-	- Magnet
-
-- Other
-	- Encrypto
-	- iTranslate
-
 ## Developer Tools
 
 ### ssh
