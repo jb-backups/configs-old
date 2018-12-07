@@ -75,21 +75,35 @@ plugins=(
 )
 ```
 
-#### Aplicar tema e configurar as personalizações:
+#### Selecionar temas:
 
-Baixar e instalar o tema `powerlevel9k`:
-
-```
-git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-```
-
-Para ativar o tema é necessário modificar o arquivo `.zshrc`:
+##### Baixar e instalar:
 
 ```
+git clone https://github.com/bhilburn/powerlevel9k.git $ZSH_CUSTOM/themes/powerlevel9k
+git clone https://github.com/oskarkrawczyk/honukai-iterm-zsh.git $ZSH_CUSTOM/themes/honukai
+git clone https://github.com/carloscuesta/materialshell.git $ZSH_CUSTOM/themes/materialshell
+```
+
+##### Para ativar o tema é necessário modificar o arquivo `.zshrc`:
+
+```
+## Default themes
+
+ZSH_THEME="agnoster"
+ZSH_THEME="gnzh"
+ZSH_THEME="amuse"
+
+## Custom themes
+
 ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="honukai/honukai"
+ZSH_THEME="materialshell/materialshell"
 ```
 
-Adicionar as customizações do tema:
+##### Customizações dos temas:
+
+###### `powerlevel9k`:
 
 ```
 # POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs newline)
