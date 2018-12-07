@@ -132,7 +132,7 @@ Instalar o gerenciador de pacotes:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Adicionar a possibilidade de instalar fontes e softwares com a linha de comando:
+Instalar fontes e softwares com a linha de comando:
 
 ```
 brew tap caskroom/cask
@@ -145,6 +145,40 @@ Fontes que você vai precisar para programar no mac:
 brew cask install homebrew/cask-fonts/font-fira-code
 brew cask install homebrew/cask-fonts/font-source-code-pro
 brew cask install font-sans-forgetica
+```
+
+Instalar softwares direto da AppStore:
+
+```
+## Install
+brew install mas
+
+## Singin
+mas signin mas@example.com "13245678"
+
+## Software to install
+# Apple
+mas install 409183694     # Keynote
+mas install 409203825     # Numbers
+mas install 409201541     # Pages
+
+# Browser
+mas install 1077036385    # Fluid Browser
+
+# Message
+mas install ???     # Airmail
+mas install ???     # Spark
+
+# Utility
+mas install 775737590     # iA Writer
+mas install 441258766     # Magnet
+mas install 646295438     # RAR Extractor Lite
+
+# Other
+mas install 926121450     # Coinverter
+mas install 935235287     # Encrypto
+mas install 1081413713    # GIF Brewery 3
+mas install 884952790     # iTranslate
 ```
 
 ### Git
@@ -257,7 +291,7 @@ brew cask install telegram-desktop
 brew cask install whatsapp
 ```
 
-Programas de música e mídia: 
+Programas de música e mídia:
 
 ```
 brew cask install deezer
@@ -265,7 +299,7 @@ brew cask install spotify
 brew cask install vlc
 ```
 
-Programas para designer: 
+Programas para designer:
 
 ```
 brew cask install blender
