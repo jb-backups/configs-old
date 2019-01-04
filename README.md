@@ -273,6 +273,7 @@ Programas de música e mídia:
 brew cask install deezer
 brew cask install spotify
 brew cask install vlc
+brew cask install iina
 ```
 
 Programas para designer:
@@ -296,6 +297,7 @@ Utilitários:
 
 ```
 brew cask install 1password
+brew cask install alfred
 brew cask install bartender
 brew cask install cheatsheet
 brew cask install cleanmymac
