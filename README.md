@@ -271,9 +271,9 @@ Programas de música e mídia:
 
 ```
 brew cask install deezer
+brew cask install iina
 brew cask install spotify
 brew cask install vlc
-brew cask install iina
 ```
 
 Programas para designer:
