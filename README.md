@@ -142,19 +142,25 @@ mas install 409201541     # Pages
 mas install 1077036385    # Fluid Browser
 
 # Message
-mas install ???     # Airmail
-mas install ???     # Spark
+mas install 918858936     # Airmail 3
+mas install 1059655371    # Newton
+mas install 1176895641    # Spark
 
 # Utility
 mas install 775737590     # iA Writer
 mas install 441258766     # Magnet
-mas install 646295438     # RAR Extractor Lite
 
 # Other
 mas install 926121450     # Coinverter
-mas install 935235287     # Encrypto
 mas install 1081413713    # GIF Brewery 3
+mas install 1437226581    # Horo
 mas install 884952790     # iTranslate
+
+#MacPaw
+mas install 935235287     # Encrypto
+mas install 1090488118    # Gemini 2
+mas install 425424353     # The Unarchiver
+mas install 1266674560    # Wallpaper Wizard
 ```
 
 ### Git
@@ -212,7 +218,7 @@ Navegadores:
 
 ```
 brew cask install blisk
-brew cask install brave
+brew cask install brave-browser
 brew cask install google-chrome
 brew cask install google-chrome-canary
 brew cask install chromium
@@ -303,6 +309,7 @@ brew cask install cheatsheet
 brew cask install cleanmymac
 brew cask install command-tab-plus
 brew cask install etcher
+brew cask install rocket
 brew cask install vanilla
 brew cask install virtualbox
 brew cask install webtorrent
