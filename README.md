@@ -261,13 +261,13 @@ git clone https://github.com/JonathanBergson/shell.git
 Adicionar a linha abaixo há um dos dois arquivos `.zshrc` ou `.bashrc`:
 
 ```shell
-source ~/shell/shell.sh
+source ~/shell/snippets.sh
 ```
 
 ou execute o comando:
 
 ```shell
-echo "\n\nsource ~/shell/shell.sh" >> ~/.zshrc
+echo "\n\nsource ~/shell/snippets.sh" >> ~/.zshrc
 ```
 
 ### Java
