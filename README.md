@@ -189,7 +189,7 @@ Instalar o gerenciador de versão do node:
 brew install nvm
 ```
 
-Adicionar a variável de ambiente no arquivo `.zshrc`:
+Adicionar a variável de ambiente no arquivo `.zshrc` ou `.bashrc`:
 
 ```
 export NVM_DIR="$HOME/.nvm"
@@ -232,6 +232,20 @@ ou execute o comando:
 
 ```shell
 echo "\n\nsource ~/shell/shell.sh" >> ~/.zshrc
+```
+
+### Java
+
+Instalar o JDK:
+
+```shell
+brew cask install oracle-jdk
+```
+
+Adicionar a variável de ambiente no arquivo `.zshrc` ou `.bashrc`:
+
+```shell
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/
 ```
 
 
