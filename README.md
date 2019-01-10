@@ -81,21 +81,23 @@ ZSH_THEME="materialshell/materialshell"
 
 ###### `powerlevel9k`:
 
+Para usar as configurações, basta baixar o repositório.
+
+```shell
+cd ~
+git clone https://github.com/JonathanBergson/powerlevel9k
 ```
-# POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs newline)
-# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(ram node_version battery)
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(battery node_version dir vcs newline)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
+Adicionar a linha abaixo há um dos dois arquivos `.zshrc` ou `.bashrc`:
 
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
-POWERLEVEL9K_SHORTEN_DELIMITER=""
-POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
+```shell
+source ~/powerlevel9k/config.sh
+```
 
-POWERLEVEL9K_NODE_VERSION_BACKGROUND='28'
-POWERLEVEL9K_NODE_VERSION_FOREGROUND='15'
+ou execute o comando:
 
-POWERLEVEL9K_MODE='awesome-patched'
+```shell
+echo "\n\nsource ~/powerlevel9k/config.sh" >> ~/.zshrc
 ```
 
 ### Homebrew
@@ -211,12 +213,33 @@ npm config set init-author-url "http://domain.com"
 npm config set init-license "MIT"
 ```
 
+### Shell
+
+Para adicionar e utilziar os snippets, basta baixar o repositório:
+
+```shell
+cd ~
+git clone https://github.com/JonathanBergson/shell.git
+```
+
+Adicionar a linha abaixo há um dos dois arquivos `.zshrc` ou `.bashrc`:
+
+```shell
+source ~/shell/shell.sh
+```
+
+ou execute o comando:
+
+```shell
+echo "\n\nsource ~/shell/shell.sh" >> ~/.zshrc
+```
+
 
 ## Softwares
 
 Navegadores:
 
-```
+```shell
 brew cask install blisk
 brew cask install brave-browser
 brew cask install google-chrome
