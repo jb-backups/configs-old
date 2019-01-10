@@ -9,19 +9,19 @@ Tutorial para configurar o macOS.
 
 #### Generating a new SSH key
 
-``` bash
+```shell
 ssh-keygen
 ```
 
 or
 
-``` bash
+```shell
 ssh-keygen -t rsa -b 4096 -C "Username, Machinename - Macbook Pro, Personal - Wednesday, 06 June 2018" -N "passphrase"
 ```
 
 #### Copy key to clipboard
 
-``` bash
+```shell
 cat ~/.ssh/id_rsa.pub | pbcopy
 ```
 
@@ -30,7 +30,7 @@ cat ~/.ssh/id_rsa.pub | pbcopy
 
 Instalar o zsh e o [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) para ter um terminal mais inteligente:
 
-```
+```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
@@ -38,13 +38,13 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 Instalar o plugin `zsh-autosuggestions` para o `oh-my-zsh`:
 
-```
+```shell
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
 Adicionar o plugin ao arquivo `.zshrc`:
 
-```
+```shell
 plugins=(
   git
   zsh-autosuggestions
@@ -55,7 +55,7 @@ plugins=(
 
 ##### Baixar e instalar:
 
-```
+```shell
 git clone https://github.com/bhilburn/powerlevel9k.git $ZSH_CUSTOM/themes/powerlevel9k
 git clone https://github.com/oskarkrawczyk/honukai-iterm-zsh.git $ZSH_CUSTOM/themes/honukai
 git clone https://github.com/carloscuesta/materialshell.git $ZSH_CUSTOM/themes/materialshell
@@ -63,7 +63,7 @@ git clone https://github.com/carloscuesta/materialshell.git $ZSH_CUSTOM/themes/m
 
 ##### Para ativar o tema é necessário modificar o arquivo `.zshrc`:
 
-```
+```shell
 ## Default themes
 
 ZSH_THEME="agnoster"
@@ -106,28 +106,33 @@ O mac não tem um apt-get, mas tem o [Homebrew](https://brew.sh/index_pt-br) par
 
 Instalar o gerenciador de pacotes:
 
-```
+```shell
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Instalar fontes e softwares com a linha de comando:
+Instalar drivers, fontes e softwares utilizando a linha de comando:
 
-```
+```shell
 brew tap caskroom/cask
 brew tap caskroom/fonts
 ```
 
 Fontes que você vai precisar para programar no mac:
 
-```
+```shell
 brew cask install homebrew/cask-fonts/font-fira-code
 brew cask install homebrew/cask-fonts/font-source-code-pro
+```
+
+Outras fontes:
+
+```shell
 brew cask install font-sans-forgetica
 ```
 
 Instalar softwares direto da AppStore:
 
-```
+```shell
 ## Install
 brew install mas
 
@@ -169,14 +174,14 @@ mas install 1266674560    # Wallpaper Wizard
 
 Instalar ferramenta de controle de versão:
 
-```
+```shell
 brew install git
 brew install git-flow-avh
 ```
 
 Configurar informações do [git](https://git-scm.com):
 
-```
+```shell
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
@@ -185,20 +190,20 @@ git config --global user.name "Your Name"
 
 Instalar o gerenciador de versão do node:
 
-```
+```shell
 brew install nvm
 ```
 
 Adicionar a variável de ambiente no arquivo `.zshrc` ou `.bashrc`:
 
-```
+```shell
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
 ```
 
 Instalar a versão `lts` do node:
 
-```
+```shell
 nvm install --lts
 ```
 
@@ -206,11 +211,42 @@ nvm install --lts
 
 Configurar as variáveis default do [npm](npmjs.com):
 
-```
+```shell
 npm config set init-author-name "Your name"
 npm config set init-author-email "name@domain.com"
 npm config set init-author-url "http://domain.com"
 npm config set init-license "MIT"
+```
+
+### React Native
+
+Instalar as dependencias do React Native:
+
+```shell
+brew install node
+brew install watchman
+```
+
+Instalar o pacote do React Native:
+
+```shell
+npm install -g react-native-cli
+```
+
+Ou use o `yarn`:
+
+```shell
+yarn global add react-native-cli
+```
+
+Adicionar a variável de ambiente no arquivo `.zshrc` ou `.bashrc`:
+
+```shell
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 ```
 
 ### Shell
@@ -269,7 +305,7 @@ brew cask install torbrowser
 
 Editores de texto:
 
-```
+```shell
 brew cask install atom
 brew cask install hyper
 brew cask install iterm2
@@ -280,7 +316,7 @@ brew cask install webstorm
 
 Ferramentas de desenvolvimento:
 
-```
+```shell
 brew cask install dash
 brew cask install docker
 brew cask install github
@@ -292,7 +328,7 @@ brew cask install postman
 
 Gerenciadores de banco de dados:
 
-```
+```shell
 brew cask install sequel-pro
 brew cask install datagrip
 brew cask install navicat-for-postgresql
@@ -301,7 +337,7 @@ brew cask install pgadmin4
 
 Programas de mensagem:
 
-```
+```shell
 brew cask install discord
 brew cask install franz
 brew cask install messenger
@@ -312,7 +348,7 @@ brew cask install whatsapp
 
 Programas de música e mídia:
 
-```
+```shell
 brew cask install deezer
 brew cask install iina
 brew cask install spotify
@@ -321,7 +357,7 @@ brew cask install vlc
 
 Programas para designer:
 
-```
+```shell
 brew cask install blender
 brew cask install aseprite
 brew cask install gimp
@@ -330,7 +366,7 @@ brew cask install magicavoxel
 
 Apps para jogar:
 
-```
+```shell
 brew cask install battle-net
 brew cask install openemu
 brew cask install steam
@@ -338,7 +374,7 @@ brew cask install steam
 
 Utilitários:
 
-```
+```shell
 brew cask install 1password
 brew cask install alfred
 brew cask install bartender
@@ -354,7 +390,7 @@ brew cask install webtorrent
 
 Proteção de tela, frescura de quem usa mac:
 
-```
+```shell
 brew cask install fliqlo
 brew cask install padbury-clock
 ```
@@ -363,7 +399,7 @@ brew cask install padbury-clock
 
 Instalar drivers:
 
-```
+```shell
 brew cask install logitech-options
 brew cask install razer-synapse
 brew cask install xbox360-controller-driver-unofficial
