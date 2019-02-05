@@ -284,7 +284,6 @@ Adicionar a variável de ambiente no arquivo `.zshrc` ou `.bashrc`:
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/
 ```
 
-
 ## Softwares
 
 Navegadores:
@@ -404,3 +403,21 @@ brew cask install logitech-options
 brew cask install razer-synapse
 brew cask install xbox360-controller-driver-unofficial
 ```
+
+## Sistema
+
+### Preferências do Sistema
+
+Cantos de acesso rápido:
+
+![Cantos de acesso rápido](./assets/cantos-de-acesso-rapido.png)
+
+### Dashboard
+
+Apple apps:
+
+![Cantos de acesso rápido](./assets/macos-dashboard-apple-apps.png)
+
+Meus apps:
+
+![Cantos de acesso rápido](./assets/macos-dashboard-my-apps.png)
