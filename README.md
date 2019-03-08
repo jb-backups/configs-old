@@ -305,6 +305,7 @@ brew cask install torbrowser
 Editores de texto:
 
 ```shell
+brew cask install android-studio
 brew cask install atom
 brew cask install hyper
 brew cask install iterm2
@@ -381,6 +382,7 @@ brew cask install cheatsheet
 brew cask install cleanmymac
 brew cask install command-tab-plus
 brew cask install etcher
+brew cask install iexplorer
 brew cask install rocket
 brew cask install vanilla
 brew cask install virtualbox
