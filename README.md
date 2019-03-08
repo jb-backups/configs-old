@@ -321,9 +321,11 @@ brew cask install dash
 brew cask install docker
 brew cask install github
 brew cask install gitkraken
-brew cask install sourcetree
 brew cask install insomnia
 brew cask install postman
+brew cask install react-native-debbuger 
+brew cask install reactotron
+brew cask install sourcetree
 ```
 
 Gerenciadores de banco de dados:
