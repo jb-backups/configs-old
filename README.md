@@ -25,6 +25,31 @@ ssh-keygen -t rsa -b 4096 -C "Username, Machinename - Macbook Pro, Personal - We
 cat ~/.ssh/id_rsa.pub | pbcopy
 ```
 
+#### Criar arquivo de configuração para multiplas chaves
+
+Para ler sobre, [clique aqui](https://gist.github.com/jexchan/2351996).
+
+```
+# hotmart account
+
+Host github.com-hotmart
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_hotmart
+
+# personal account
+
+Host github.com-personal
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_personal
+
+Host bitbucket.org
+  HostName bitbucket.org
+  User git
+  IdentityFile ~/.ssh/id_rsa_personal
+```
+
 ### Homebrew
 
 O mac não tem um apt-get, mas tem o [Homebrew](https://brew.sh/index_pt-br) para instalar e gerenciar, ferramentas de linha de comando e softwares.
