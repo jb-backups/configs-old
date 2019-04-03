@@ -25,6 +25,31 @@ ssh-keygen -t rsa -b 4096 -C "Username, Machinename - Macbook Pro, Personal - We
 cat ~/.ssh/id_rsa.pub | pbcopy
 ```
 
+### Homebrew
+
+O mac não tem um apt-get, mas tem o [Homebrew](https://brew.sh/index_pt-br) para instalar e gerenciar, ferramentas de linha de comando e softwares.
+
+Instalar o gerenciador de pacotes:
+
+```shell
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+### Git
+
+Instalar ferramenta de controle de versão:
+
+```shell
+brew install git
+brew install git-flow-avh
+```
+
+Configurar informações do [git](https://git-scm.com):
+
+```shell
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
 
 ### oh-my-zsh
 
@@ -100,15 +125,7 @@ ou execute o comando:
 echo "\n\nsource ~/powerlevel9k/config.sh" >> ~/.zshrc
 ```
 
-### Homebrew
-
-O mac não tem um apt-get, mas tem o [Homebrew](https://brew.sh/index_pt-br) para instalar e gerenciar, ferramentas de linha de comando e softwares.
-
-Instalar o gerenciador de pacotes:
-
-```shell
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+### Itens
 
 Instalar drivers, fontes e softwares utilizando a linha de comando:
 
@@ -168,22 +185,6 @@ mas install 935235287     # Encrypto
 mas install 1090488118    # Gemini 2
 mas install 425424353     # The Unarchiver
 mas install 1266674560    # Wallpaper Wizard
-```
-
-### Git
-
-Instalar ferramenta de controle de versão:
-
-```shell
-brew install git
-brew install git-flow-avh
-```
-
-Configurar informações do [git](https://git-scm.com):
-
-```shell
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
 ```
 
 ### Node
@@ -323,7 +324,7 @@ brew cask install github
 brew cask install gitkraken
 brew cask install insomnia
 brew cask install postman
-brew cask install react-native-debbuger 
+brew cask install react-native-debbuger
 brew cask install reactotron
 brew cask install sourcetree
 ```
@@ -404,7 +405,7 @@ Instalar drivers:
 
 ```shell
 brew cask install logitech-options
-brew cask install razer-synapse
+brew cask install homebrew/cask-drivers/razer-synapse
 brew cask install xbox360-controller-driver-unofficial
 ```
 
