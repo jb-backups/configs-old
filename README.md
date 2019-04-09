@@ -5,6 +5,32 @@ Tutorial para configurar o macOS.
 
 ## Developer Tools
 
+### Homebrew
+
+O mac não tem um apt-get, mas tem o [Homebrew](https://brew.sh/index_pt-br) para instalar e gerenciar, ferramentas de linha de comando e softwares.
+
+Instalar o gerenciador de pacotes:
+
+```shell
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+### Git
+
+Instalar ferramenta de controle de versão:
+
+```shell
+brew install git
+brew install git-flow-avh
+```
+
+Configurar informações do [git](https://git-scm.com):
+
+```shell
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
 ### ssh
 
 #### Generating a new SSH key
@@ -48,32 +74,6 @@ Host bitbucket.org
   HostName bitbucket.org
   User git
   IdentityFile ~/.ssh/id_rsa_personal
-```
-
-### Homebrew
-
-O mac não tem um apt-get, mas tem o [Homebrew](https://brew.sh/index_pt-br) para instalar e gerenciar, ferramentas de linha de comando e softwares.
-
-Instalar o gerenciador de pacotes:
-
-```shell
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-### Git
-
-Instalar ferramenta de controle de versão:
-
-```shell
-brew install git
-brew install git-flow-avh
-```
-
-Configurar informações do [git](https://git-scm.com):
-
-```shell
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
 ```
 
 ### oh-my-zsh
