@@ -454,6 +454,13 @@ brew cask install xbox360-controller-driver-unofficial
 
 ## Sublime Text 3
 
+Packages:
+
+- Babel
+- Material Theme
+- Material Theme - Appbar
+- Package Control
+
 Settings:
 
 ```json
