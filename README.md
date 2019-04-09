@@ -101,6 +101,29 @@ plugins=(
 )
 ```
 
+#### Customizações dos temas:
+
+##### `powerlevel9k`:
+
+Para usar as configurações, basta baixar o repositório.
+
+```shell
+cd ~
+git clone https://github.com/JonathanBergson/powerlevel9k
+```
+
+Adicionar a linha abaixo há um dos dois arquivos `.zshrc` ou `.bashrc`:
+
+```shell
+source ~/powerlevel9k/config.sh
+```
+
+ou execute o comando:
+
+```shell
+echo "\n\nsource ~/powerlevel9k/config.sh" >> ~/.zshrc
+```
+
 #### Selecionar temas:
 
 ##### Baixar e instalar:
@@ -125,29 +148,6 @@ ZSH_THEME="amuse"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 ZSH_THEME="honukai/honukai"
 ZSH_THEME="materialshell/materialshell"
-```
-
-##### Customizações dos temas:
-
-###### `powerlevel9k`:
-
-Para usar as configurações, basta baixar o repositório.
-
-```shell
-cd ~
-git clone https://github.com/JonathanBergson/powerlevel9k
-```
-
-Adicionar a linha abaixo há um dos dois arquivos `.zshrc` ou `.bashrc`:
-
-```shell
-source ~/powerlevel9k/config.sh
-```
-
-ou execute o comando:
-
-```shell
-echo "\n\nsource ~/powerlevel9k/config.sh" >> ~/.zshrc
 ```
 
 ### Shell
@@ -423,6 +423,22 @@ Proteção de tela, frescura de quem usa mac:
 brew cask install fliqlo
 brew cask install padbury-clock
 ```
+
+## Browser Extensios
+
+- 1Password - [link](https://1password.com/downloads/mac/#browsers)
+
+### Privacy
+
+- Ghostery - [link](https://www.ghostery.com/)
+- HTTPS Everywhere - [link](https://www.eff.org/https-everywhere)
+- Privacy Badger - [link](https://www.eff.org/privacybadger)
+
+### Developer
+
+- CodeCopy - [Repository](https://github.com/zenorocha/codecopy), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/codecopy/), [Chrome](https://chrome.google.com/webstore/detail/codecopy/fkbfebkcoelajmhanocgppanfoojcdmg)
+- React Developer Tools - [Repository](https://github.com/facebook/react-devtools), [Firefox](https://addons.mozilla.org/firefox/addon/react-devtools/), [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+- Redux DevTools Extension - [Repository](https://github.com/zalmoxisus/redux-devtools-extension), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/), [Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
 
 ## Drivers
 
