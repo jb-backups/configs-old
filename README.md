@@ -426,15 +426,17 @@ brew cask install padbury-clock
 
 ## Browser Extensios
 
+##### Generic
+
 - 1Password - [link](https://1password.com/downloads/mac/#browsers)
 
-### Privacy
+##### Privacy
 
 - Ghostery - [link](https://www.ghostery.com/)
 - HTTPS Everywhere - [link](https://www.eff.org/https-everywhere)
 - Privacy Badger - [link](https://www.eff.org/privacybadger)
 
-### Developer
+##### Developer
 
 - CodeCopy - [Repository](https://github.com/zenorocha/codecopy), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/codecopy/), [Chrome](https://chrome.google.com/webstore/detail/codecopy/fkbfebkcoelajmhanocgppanfoojcdmg)
 - React Developer Tools - [Repository](https://github.com/facebook/react-devtools), [Firefox](https://addons.mozilla.org/firefox/addon/react-devtools/), [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
@@ -448,6 +450,61 @@ Instalar drivers:
 brew cask install logitech-options
 brew cask install homebrew/cask-drivers/razer-synapse
 brew cask install xbox360-controller-driver-unofficial
+```
+
+## Sublime Text 3
+
+Settings:
+
+```json
+{
+  "always_show_minimap_viewport": true,
+  "bold_folder_labels": true,
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+  "draw_white_space": "all",
+  "ensure_newline_at_eof_on_save": true,
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    "node_modules",
+    "coverage"
+  ],
+  "font_face": "Fira Code",
+  "font_options":
+  [
+    "gray_antialias"
+  ],
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+  "line_padding_bottom": 2,
+  "line_padding_top": 2,
+  "material_theme_accent_charcoal": true,
+  "material_theme_appbar_charcoal": true,
+  "material_theme_bullet_tree_indicator": true,
+  "overlay_scroll_bars": "enabled",
+  "rulers":
+  [
+    100
+  ],
+  "shift_tab_unindent": true,
+  "tab_size": 2,
+  "theme": "Material-Theme-Darker.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": true,
+  "wrap_width": 100
+}
 ```
 
 ## Sistema
