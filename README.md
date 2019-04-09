@@ -30,12 +30,12 @@ cat ~/.ssh/id_rsa.pub | pbcopy
 Para ler sobre, [clique aqui](https://gist.github.com/jexchan/2351996).
 
 ```
-# hotmart account
+# work account
 
-Host github.com-hotmart
+Host github.com-work
   HostName github.com
   User git
-  IdentityFile ~/.ssh/id_rsa_hotmart
+  IdentityFile ~/.ssh/id_rsa_work
 
 # personal account
 
@@ -150,66 +150,25 @@ ou execute o comando:
 echo "\n\nsource ~/powerlevel9k/config.sh" >> ~/.zshrc
 ```
 
-### Itens
+### Shell
 
-Instalar drivers, fontes e softwares utilizando a linha de comando:
+Para adicionar e utilziar os snippets, basta baixar o repositório:
 
 ```shell
-brew tap caskroom/cask
-brew tap caskroom/fonts
+cd ~
+git clone https://github.com/JonathanBergson/shell.git
 ```
 
-Fontes que você vai precisar para programar no mac:
+Adicionar a linha abaixo há um dos dois arquivos `.zshrc` ou `.bashrc`:
 
 ```shell
-brew cask install homebrew/cask-fonts/font-fira-code
-brew cask install homebrew/cask-fonts/font-source-code-pro
+source ~/shell/snippets.sh
 ```
 
-Outras fontes:
+ou execute o comando:
 
 ```shell
-brew cask install font-sans-forgetica
-```
-
-Instalar softwares direto da AppStore:
-
-```shell
-## Install
-brew install mas
-
-## Singin
-mas signin mas@example.com "13245678"
-
-## Software to install
-# Apple
-mas install 409183694     # Keynote
-mas install 409203825     # Numbers
-mas install 409201541     # Pages
-
-# Browser
-mas install 1077036385    # Fluid Browser
-
-# Message
-mas install 918858936     # Airmail 3
-mas install 1059655371    # Newton
-mas install 1176895641    # Spark
-
-# Utility
-mas install 775737590     # iA Writer
-mas install 441258766     # Magnet
-
-# Other
-mas install 926121450     # Coinverter
-mas install 1081413713    # GIF Brewery 3
-mas install 1437226581    # Horo
-mas install 884952790     # iTranslate
-
-#MacPaw
-mas install 935235287     # Encrypto
-mas install 1090488118    # Gemini 2
-mas install 425424353     # The Unarchiver
-mas install 1266674560    # Wallpaper Wizard
+echo "\n\nsource ~/shell/snippets.sh" >> ~/.zshrc
 ```
 
 ### Node
@@ -275,27 +234,6 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 ```
 
-### Shell
-
-Para adicionar e utilziar os snippets, basta baixar o repositório:
-
-```shell
-cd ~
-git clone https://github.com/JonathanBergson/shell.git
-```
-
-Adicionar a linha abaixo há um dos dois arquivos `.zshrc` ou `.bashrc`:
-
-```shell
-source ~/shell/snippets.sh
-```
-
-ou execute o comando:
-
-```shell
-echo "\n\nsource ~/shell/snippets.sh" >> ~/.zshrc
-```
-
 ### Java
 
 Instalar o JDK:
@@ -308,6 +246,68 @@ Adicionar a variável de ambiente no arquivo `.zshrc` ou `.bashrc`:
 
 ```shell
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/
+```
+
+## Itens
+
+Instalar drivers, fontes e softwares utilizando a linha de comando:
+
+```shell
+brew tap caskroom/cask
+brew tap caskroom/fonts
+```
+
+Fontes que você vai precisar para programar no mac:
+
+```shell
+brew cask install homebrew/cask-fonts/font-fira-code
+brew cask install homebrew/cask-fonts/font-source-code-pro
+```
+
+Outras fontes:
+
+```shell
+brew cask install font-sans-forgetica
+```
+
+Instalar softwares direto da AppStore:
+
+```shell
+## Install
+brew install mas
+
+## Singin
+mas signin mas@example.com "13245678"
+
+## Software to install
+# Apple
+mas install 409183694     # Keynote
+mas install 409203825     # Numbers
+mas install 409201541     # Pages
+
+# Browser
+mas install 1077036385    # Fluid Browser
+
+# Message
+mas install 918858936     # Airmail 3
+mas install 1059655371    # Newton
+mas install 1176895641    # Spark
+
+# Utility
+mas install 775737590     # iA Writer
+mas install 441258766     # Magnet
+
+# Other
+mas install 926121450     # Coinverter
+mas install 1081413713    # GIF Brewery 3
+mas install 1437226581    # Horo
+mas install 884952790     # iTranslate
+
+#MacPaw
+mas install 935235287     # Encrypto
+mas install 1090488118    # Gemini 2
+mas install 425424353     # The Unarchiver
+mas install 1266674560    # Wallpaper Wizard
 ```
 
 ## Softwares
@@ -441,6 +441,10 @@ brew cask install xbox360-controller-driver-unofficial
 Cantos de acesso rápido:
 
 ![Cantos de acesso rápido](./assets/cantos-de-acesso-rapido.png)
+
+Teclado:
+
+![Teclado](./assets/kayboard-language.png)
 
 ### Dashboard
 
