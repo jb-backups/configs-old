@@ -507,6 +507,14 @@ Settings:
 }
 ```
 
+Keybinding:
+
+```json
+[
+  { "keys": ["super+b"], "command": "toggle_side_bar" },
+]
+```
+
 ## Sistema
 
 ### Preferências do Sistema
