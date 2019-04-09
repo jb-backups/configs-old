@@ -472,12 +472,9 @@ Settings:
   "ensure_newline_at_eof_on_save": true,
   "folder_exclude_patterns":
   [
-    ".svn",
-    ".git",
-    ".hg",
-    "CVS",
-    "node_modules",
-    "coverage"
+    ".vscode",
+    "coverage",
+    "node_modules"
   ],
   "font_face": "Fira Code",
   "font_options":
