@@ -489,19 +489,14 @@ Settings:
   [
     "Vintage"
   ],
-  "indent_guide_options":
-  [
-    "draw_normal",
-    "draw_active"
-  ],
   "line_padding_bottom": 2,
   "line_padding_top": 2,
-  "material_theme_accent_charcoal": true,
-  "material_theme_appbar_charcoal": true,
-  "material_theme_bullet_tree_indicator": true,
+  "material_theme_accent_orange": true,
+  "material_theme_appbar_orange": true,
   "overlay_scroll_bars": "enabled",
   "rulers":
   [
+    80,
     100
   ],
   "shift_tab_unindent": true,
