@@ -532,7 +532,7 @@ Cantos de acesso rápido:
 
 Teclado:
 
-![Teclado](./assets/kayboard-language.png)
+![Teclado](./assets/keyboard-language.png)
 
 ### Dashboard
 
