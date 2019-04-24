@@ -192,6 +192,16 @@ Instalar a versão `lts` do node:
 nvm install --lts
 ```
 
+Instalar pacotes globais:
+
+```shell
+npm i -g generator-editorconfig
+npm i -g gitignore
+npm i -g nodemon
+npm i -g yarn
+npm i -g yo
+```
+
 ### npm
 
 Configurar as variáveis default do [npm](npmjs.com):
