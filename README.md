@@ -456,10 +456,11 @@ brew cask install xbox360-controller-driver-unofficial
 
 Packages:
 
-- Babel
-- Material Theme
-- Material Theme - Appbar
-- Package Control
+- [Babel](https://packagecontrol.io/packages/Babel)
+- [Material Theme](https://packagecontrol.io/packages/Material%20Theme)
+- [Material Theme - Appbar](https://packagecontrol.io/packages/Material%20Theme%20-%20Appbar)
+- [Sass](https://packagecontrol.io/packages/Sass)
+- [Package Control](https://packagecontrol.io)
 
 Settings:
 
@@ -488,8 +489,8 @@ Settings:
   ],
   "line_padding_bottom": 2,
   "line_padding_top": 2,
-  "material_theme_accent_orange": true,
-  "material_theme_appbar_orange": true,
+  "material_theme_accent_pink": true,
+  "material_theme_appbar_pink": true,
   "overlay_scroll_bars": "enabled",
   "rulers":
   [
