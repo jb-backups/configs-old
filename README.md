@@ -396,10 +396,11 @@ brew cask install vlc
 Programas para designer:
 
 ```shell
-brew cask install blender
 brew cask install aseprite
+brew cask install blender
 brew cask install gimp
 brew cask install magicavoxel
+brew cask install unity
 ```
 
 Apps para jogar:
