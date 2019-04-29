@@ -1,4 +1,3 @@
-
 # Configurar MacOS
 
 Tutorial para configurar o macOS.
@@ -469,10 +468,16 @@ brew cask install xbox360-controller-driver-unofficial
 Packages:
 
 - [Babel](https://packagecontrol.io/packages/Babel)
-- [Material Theme](https://packagecontrol.io/packages/Material%20Theme)
-- [Material Theme - Appbar](https://packagecontrol.io/packages/Material%20Theme%20-%20Appbar)
 - [Sass](https://packagecontrol.io/packages/Sass)
 - [Package Control](https://packagecontrol.io)
+
+Themes:
+
+- [Material Theme](https://packagecontrol.io/packages/Material%20Theme)
+- [Material Theme - Appbar](https://packagecontrol.io/packages/Material%20Theme%20-%20Appbar)
+- [Materialize]()
+- [Materialize - Appbar]()
+- [Monokai Pro]()
 
 Settings:
 
@@ -483,32 +488,17 @@ Settings:
   "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
-  "folder_exclude_patterns":
-  [
-    ".vscode",
-    "coverage",
-    "node_modules"
-  ],
+  "folder_exclude_patterns": [".vscode", "coverage", "node_modules"],
   "font_face": "Fira Code",
-  "font_options":
-  [
-    "gray_antialias"
-  ],
+  "font_options": ["gray_antialias"],
   "highlight_line": true,
-  "ignored_packages":
-  [
-    "Vintage"
-  ],
+  "ignored_packages": ["Vintage"],
   "line_padding_bottom": 2,
   "line_padding_top": 2,
   "material_theme_accent_pink": true,
   "material_theme_appbar_pink": true,
   "overlay_scroll_bars": "enabled",
-  "rulers":
-  [
-    80,
-    100
-  ],
+  "rulers": [80, 100],
   "shift_tab_unindent": true,
   "tab_size": 2,
   "theme": "Material-Theme-Darker.sublime-theme",
@@ -522,9 +512,7 @@ Settings:
 Keybinding:
 
 ```json
-[
-  { "keys": ["super+b"], "command": "toggle_side_bar" },
-]
+[{ "keys": ["super+b"], "command": "toggle_side_bar" }]
 ```
 
 ## Sistema
