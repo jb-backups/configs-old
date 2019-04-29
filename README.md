@@ -367,10 +367,11 @@ brew cask install sourcetree
 Gerenciadores de banco de dados:
 
 ```shell
-brew cask install sequel-pro
 brew cask install datagrip
 brew cask install navicat-for-postgresql
 brew cask install pgadmin4
+brew cask install postico
+brew cask install sequel-pro
 ```
 
 Programas de mensagem:
