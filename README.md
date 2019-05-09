@@ -439,19 +439,21 @@ brew cask install padbury-clock
 
 ##### Generic
 
-- 1Password - [link](https://1password.com/downloads/mac/#browsers)
+- 1Password - [all browser](https://1password.com/downloads/mac/#browsers)
+- Mate Translate - [website](https://twopeoplesoftware.com/mate), [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/instant-translate/)
 
 ##### Privacy
 
-- Ghostery - [link](https://www.ghostery.com/)
-- HTTPS Everywhere - [link](https://www.eff.org/https-everywhere)
-- Privacy Badger - [link](https://www.eff.org/privacybadger)
+- DuckDuckGo Privacy Essentials - [Firefox](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg)
+- Ghostery - [Website](https://www.ghostery.com/)
+- HTTPS Everywhere - [Website](https://www.eff.org/https-everywhere)
+- Privacy Badger - [Website](https://www.eff.org/privacybadger)
 
 ##### Developer
 
-- CodeCopy - [Repository](https://github.com/zenorocha/codecopy), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/codecopy/), [Chrome](https://chrome.google.com/webstore/detail/codecopy/fkbfebkcoelajmhanocgppanfoojcdmg)
-- React Developer Tools - [Repository](https://github.com/facebook/react-devtools), [Firefox](https://addons.mozilla.org/firefox/addon/react-devtools/), [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-- Redux DevTools Extension - [Repository](https://github.com/zalmoxisus/redux-devtools-extension), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/), [Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+- CodeCopy - [Repository](https://github.com/zenorocha/codecopy), [Chrome](https://chrome.google.com/webstore/detail/codecopy/fkbfebkcoelajmhanocgppanfoojcdmg), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/codecopy/)
+- React Developer Tools - [Repository](https://github.com/facebook/react-devtools), [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi), [Firefox](https://addons.mozilla.org/firefox/addon/react-devtools/)
+- Redux DevTools Extension - [Repository](https://github.com/zalmoxisus/redux-devtools-extension), [Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/)
 
 ## Drivers
 
@@ -473,11 +475,12 @@ Packages:
 
 Themes:
 
+- [A File Icon](https://packagecontrol.io/packages/A%20File%20Icon)
 - [Material Theme](https://packagecontrol.io/packages/Material%20Theme)
 - [Material Theme - Appbar](https://packagecontrol.io/packages/Material%20Theme%20-%20Appbar)
-- [Materialize]()
-- [Materialize - Appbar]()
-- [Monokai Pro]()
+- [Materialize](https://packagecontrol.io/packages/Materialize)
+- [Materialize - Appbar](https://packagecontrol.io/packages/Materialize-Appbar)
+- [Theme - Monokai Pro](https://packagecontrol.io/packages/Theme%20-%20Monokai%20Pro)
 
 Settings:
 
