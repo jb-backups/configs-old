@@ -486,9 +486,19 @@ Settings:
 
 ```json
 {
+  // Material Theme - Configs
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+  "theme": "Material-Theme-Darker.sublime-theme",
+  "material_theme_accent_pink": true,
+  "material_theme_appbar_pink": true,
+
+  // Monokai Pro Theme - Configs
+  "color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
+  "theme": "Monokai Pro (Filter Spectrum).sublime-theme",
+
+  // Default Configs
   "always_show_minimap_viewport": true,
   "bold_folder_labels": true,
-  "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
   "folder_exclude_patterns": [".vscode", "coverage", "node_modules"],
@@ -498,13 +508,10 @@ Settings:
   "ignored_packages": ["Vintage"],
   "line_padding_bottom": 2,
   "line_padding_top": 2,
-  "material_theme_accent_pink": true,
-  "material_theme_appbar_pink": true,
   "overlay_scroll_bars": "enabled",
   "rulers": [80, 100],
   "shift_tab_unindent": true,
   "tab_size": 2,
-  "theme": "Material-Theme-Darker.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
   "word_wrap": true,
