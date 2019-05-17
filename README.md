@@ -108,7 +108,7 @@ Para usar as configurações, basta baixar o repositório.
 
 ```shell
 cd ~
-git clone https://github.com/JonathanBergson/powerlevel9k
+git clone https://github.com/dipp3r/powerlevel9k ~/.config/powerlevel9k
 ```
 
 Adicionar a linha abaixo há um dos dois arquivos `.zshrc` ou `.bashrc`:
@@ -120,18 +120,10 @@ source ~/powerlevel9k/config.sh
 ou execute o comando:
 
 ```shell
-echo "\n\nsource ~/powerlevel9k/config.sh" >> ~/.zshrc
+echo "\n\nsource ~/.config/powerlevel9k/config.sh" >> ~/.zshrc
 ```
 
 #### Selecionar temas:
-
-##### Baixar e instalar:
-
-```shell
-git clone https://github.com/bhilburn/powerlevel9k.git $ZSH_CUSTOM/themes/powerlevel9k
-git clone https://github.com/oskarkrawczyk/honukai-iterm-zsh.git $ZSH_CUSTOM/themes/honukai
-git clone https://github.com/carloscuesta/materialshell.git $ZSH_CUSTOM/themes/materialshell
-```
 
 ##### Para ativar o tema é necessário modificar o arquivo `.zshrc`:
 
@@ -149,13 +141,21 @@ ZSH_THEME="honukai/honukai"
 ZSH_THEME="materialshell/materialshell"
 ```
 
+##### Baixar e instalar:
+
+```shell
+git clone https://github.com/bhilburn/powerlevel9k.git $ZSH_CUSTOM/themes/powerlevel9k
+git clone https://github.com/oskarkrawczyk/honukai-iterm-zsh.git $ZSH_CUSTOM/themes/honukai
+git clone https://github.com/carloscuesta/materialshell.git $ZSH_CUSTOM/themes/materialshell
+```
+
 ### Shell
 
 Para adicionar e utilziar os snippets, basta baixar o repositório:
 
 ```shell
 cd ~
-git clone https://github.com/JonathanBergson/shell.git
+git clone https://github.com/dipp3r/shell.git ~/.config/shell
 ```
 
 Adicionar a linha abaixo há um dos dois arquivos `.zshrc` ou `.bashrc`:
@@ -167,7 +167,7 @@ source ~/shell/snippets.sh
 ou execute o comando:
 
 ```shell
-echo "\n\nsource ~/shell/snippets.sh" >> ~/.zshrc
+echo "\n\nsource ~/.config/shell/snippets.sh" >> ~/.zshrc
 ```
 
 ### Node
@@ -197,6 +197,7 @@ Instalar pacotes globais:
 npm i -g generator-editorconfig
 npm i -g gitignore
 npm i -g nodemon
+npm i -g react-native-cli
 npm i -g yarn
 npm i -g yo
 ```
@@ -224,7 +225,7 @@ brew install watchman
 Instalar o pacote do React Native:
 
 ```shell
-npm install -g react-native-cli
+npm i -g react-native-cli
 ```
 
 Ou use o `yarn`:
@@ -276,7 +277,7 @@ brew cask install homebrew/cask-fonts/font-source-code-pro
 Outras fontes:
 
 ```shell
-brew cask install font-sans-forgetica
+brew cask install homebrew/cask-fonts/font-sans-forgetica
 ```
 
 Instalar softwares direto da AppStore:
@@ -477,6 +478,7 @@ Packages:
 - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig#review-details)
 - [ES7](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets#review-details)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint#review-details)
+- [Rainbow Brackets]()
 - [React Native Tools]()
 - [Sort JSON](https://marketplace.visualstudio.com/items?itemName=richie5um2.vscode-sort-json#review-details)
 
@@ -593,6 +595,10 @@ Cantos de acesso rápido:
 Teclado:
 
 ![Teclado](./assets/keyboard-language.png)
+
+Configurar arrastar e soltar no trackpad:
+
+![Teclado](./assets/settings-accessiblity.png)
 
 ### Dashboard
 
