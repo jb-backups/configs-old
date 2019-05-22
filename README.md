@@ -421,6 +421,7 @@ brew cask install bartender
 brew cask install cheatsheet
 brew cask install cleanmymac
 brew cask install command-tab-plus
+brew cask install contexts
 brew cask install etcher
 brew cask install iexplorer
 brew cask install rocket
@@ -441,12 +442,13 @@ brew cask install padbury-clock
 ##### Generic
 
 - 1Password - [all browser](https://1password.com/downloads/mac/#browsers)
+- Fluid - [Website](https://fluidbrowser.com), [Chrome](https://chrome.google.com/webstore/detail/fluid-browser/lbechkjecpoldpfdbikjnabefdjahaok/related)
 - Mate Translate - [website](https://twopeoplesoftware.com/mate), [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/instant-translate/)
 
 ##### Privacy
 
 - DuckDuckGo Privacy Essentials - [Firefox](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg)
-- Ghostery - [Website](https://www.ghostery.com/)
+- Ghostery - [Website](https://www.ghostery.com)
 - HTTPS Everywhere - [Website](https://www.eff.org/https-everywhere)
 - Privacy Badger - [Website](https://www.eff.org/privacybadger)
 
