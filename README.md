@@ -178,6 +178,14 @@ ou execute o comando:
 echo "\n\nsource ~/.config/shell/snippets.sh" >> ~/.zshrc
 ```
 
+### Command Line
+
+Instalar ferramentas do terminal
+
+```shell
+brew install tree
+```
+
 ### Node
 
 Instalar o gerenciador de versão do node:

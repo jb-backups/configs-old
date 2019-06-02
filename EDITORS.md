@@ -12,8 +12,8 @@ Packages:
 - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig#review-details)
 - [ES7](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets#review-details)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint#review-details)
-- [Rainbow Brackets]()
-- [React Native Tools]()
+- [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets#review-details)
+- [React Native Tools](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native#review-details)
 - [Sort JSON](https://marketplace.visualstudio.com/items?itemName=richie5um2.vscode-sort-json#review-details)
 
 Debugger:
@@ -124,7 +124,7 @@ Keybinding:
 
 Settings:
 
-Selecionar o menu: _Atom >> Config..._
+Selecionar o menu: _`Atom >> Config...`_
 
 ```
 "*":
