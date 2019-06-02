@@ -75,6 +75,14 @@ Host bitbucket.org
   IdentityFile ~/.ssh/id_rsa_personal
 ```
 
+### zsh
+
+Mudar o `shell` default para o `zsh`:
+
+```shell
+chsh -s /bin/zsh
+```
+
 ### oh-my-zsh
 
 Instalar o zsh e o [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) para ter um terminal mais inteligente:
@@ -436,6 +444,14 @@ Proteção de tela, frescura de quem usa mac:
 ```shell
 brew cask install fliqlo
 brew cask install padbury-clock
+```
+
+## iTerm2
+
+Configurar perfil do iTerm2:
+
+```shell
+# make
 ```
 
 ## Browser Extensios
