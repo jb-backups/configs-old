@@ -108,19 +108,19 @@ Para usar as configurações, basta baixar o repositório.
 
 ```shell
 cd ~
-git clone https://github.com/dipp3r/powerlevel9k ~/.config/powerlevel9k
+git clone git@github.com:dipp3r/configs.git ~/.config/personal/powerlevel9k
 ```
 
 Adicionar a linha abaixo há um dos dois arquivos `.zshrc` ou `.bashrc`:
 
 ```shell
-source ~/powerlevel9k/config.sh
+source ~/.config/personal/powerlevel9k/config.sh
 ```
 
 ou execute o comando:
 
 ```shell
-echo "\n\nsource ~/.config/powerlevel9k/config.sh" >> ~/.zshrc
+echo "\n\nsource ~/.config/personal/powerlevel9k/config.sh" >> ~/.zshrc
 ```
 
 #### Selecionar temas:
@@ -155,13 +155,13 @@ Para adicionar e utilziar os snippets, basta baixar o repositório:
 
 ```shell
 cd ~
-git clone https://github.com/dipp3r/shell.git ~/.config/shell
+git clone git@github.com:dipp3r/configs.git ~/.config/personal/shell
 ```
 
 Adicionar a linha abaixo há um dos dois arquivos `.zshrc` ou `.bashrc`:
 
 ```shell
-source ~/shell/snippets.sh
+source ~/.config/personal/shell/snippets.sh
 ```
 
 ou execute o comando:
@@ -182,7 +182,8 @@ Adicionar a variável de ambiente no arquivo `.zshrc` ou `.bashrc`:
 
 ```shell
 export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 ```
 
 Instalar a versão `lts` do node:
@@ -474,15 +475,15 @@ brew cask install xbox360-controller-driver-unofficial
 
 Cantos de acesso rápido:
 
-![Cantos de acesso rápido](./assets/cantos-de-acesso-rapido.png)
+![Cantos de acesso rápido](./assets/settings-hot-corners.png)
 
 Teclado:
 
-![Teclado](./assets/keyboard-language.png)
+![Teclado](./assets/settings-keyboard-input-sources.png)
 
 Configurar arrastar e soltar no trackpad:
 
-![Teclado](./assets/settings-accessiblity.png)
+![Teclado](./assets/settings-accessibility.png)
 
 ### Dashboard
 
