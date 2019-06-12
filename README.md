@@ -495,26 +495,38 @@ brew cask install xbox360-controller-driver-unofficial
 
 ## Sistema
 
-### Preferências do Sistema
+### Preferências do sistema
 
 Cantos de acesso rápido:
 
-![Cantos de acesso rápido](./assets/settings-hot-corners.png)
+![Preferências dos cantos de acesso rápido](./assets/settings-hot-corners.png)
 
 Teclado:
 
-![Teclado](./assets/settings-keyboard-input-sources.png)
+![Preferências do teclado](./assets/settings-keyboard-input-sources.png)
 
 Configurar arrastar e soltar no trackpad:
 
-![Teclado](./assets/settings-accessibility.png)
+![Preferências do trackpad](./assets/settings-accessibility.png)
 
 ### Dashboard
 
 Apple apps:
 
-![Cantos de acesso rápido](./assets/macos-dashboard-apple-apps.png)
+![Organização da dashboard dos meus apps](./assets/macos-dashboard-apple-apps.png)
 
 Meus apps:
 
-![Cantos de acesso rápido](./assets/macos-dashboard-my-apps.png)
+![Organização da dashboard dos apps da Apple](./assets/macos-dashboard-my-apps.png)
+
+### Softwares Settings
+
+#### Contexts
+
+Atalho `Command-Tab`:
+
+![Configurações do atalho Command-Tab](./assets/contexts-command-tab.png)
+
+Atalho `Option-Tab`:
+
+![Configurações do atalho Option-Tab](./assets/contexts-option-tab.png.png)

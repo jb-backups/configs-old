@@ -117,7 +117,16 @@ Settings:
 Keybinding:
 
 ```json
-[{ "keys": ["super+b"], "command": "toggle_side_bar" }]
+[
+  { "keys": ["super+b"], "command": "toggle_side_bar" },
+  {
+    "keys": ["super+shift+k"],
+    "command": "run_macro_file",
+    "args": { "file": "res://Packages/Default/Delete Line.sublime-macro" }
+  },
+  { "keys": ["alt+up"], "command": "swap_line_up" },
+  { "keys": ["alt+down"], "command": "swap_line_down" }
+]
 ```
 
 ## Atom
