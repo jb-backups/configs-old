@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "description": "My macbook config setup",
   "main": "index.js",
-  "repository": "git@github.com:JonathanBergson/config-my-mac.git",
-  "author": "Jonathan Bergson <jonathan@bergson.me>",
+  "repository": "git@github.com:dipp3r/configs.git",
+  "author": "Jonathan Bergson <hello@bergson.me>",
   "license": "UNLINCENSE",
   "private": false,
   "keywords": []
