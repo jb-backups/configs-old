@@ -75,6 +75,14 @@ Host bitbucket.org
   IdentityFile ~/.ssh/id_rsa_personal
 ```
 
+### zsh
+
+Mudar o `shell` default para o `zsh`:
+
+```shell
+chsh -s /bin/zsh
+```
+
 ### oh-my-zsh
 
 Instalar o zsh e o [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) para ter um terminal mais inteligente:
@@ -108,19 +116,19 @@ Para usar as configurações, basta baixar o repositório.
 
 ```shell
 cd ~
-git clone https://github.com/dipp3r/powerlevel9k ~/.config/powerlevel9k
+git clone git@github.com:dipp3r/configs.git ~/.config/personal/powerlevel9k
 ```
 
 Adicionar a linha abaixo há um dos dois arquivos `.zshrc` ou `.bashrc`:
 
 ```shell
-source ~/powerlevel9k/config.sh
+source ~/.config/personal/powerlevel9k/config.sh
 ```
 
 ou execute o comando:
 
 ```shell
-echo "\n\nsource ~/.config/powerlevel9k/config.sh" >> ~/.zshrc
+echo "\n\nsource ~/.config/personal/powerlevel9k/config.sh" >> ~/.zshrc
 ```
 
 #### Selecionar temas:
@@ -155,13 +163,13 @@ Para adicionar e utilziar os snippets, basta baixar o repositório:
 
 ```shell
 cd ~
-git clone https://github.com/dipp3r/shell.git ~/.config/shell
+git clone git@github.com:dipp3r/configs.git ~/.config/personal/shell
 ```
 
 Adicionar a linha abaixo há um dos dois arquivos `.zshrc` ou `.bashrc`:
 
 ```shell
-source ~/shell/snippets.sh
+source ~/.config/personal/shell/snippets.sh
 ```
 
 ou execute o comando:
@@ -182,7 +190,8 @@ Adicionar a variável de ambiente no arquivo `.zshrc` ou `.bashrc`:
 
 ```shell
 export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 ```
 
 Instalar a versão `lts` do node:
@@ -437,6 +446,14 @@ brew cask install fliqlo
 brew cask install padbury-clock
 ```
 
+## iTerm2
+
+Configurar perfil do iTerm2:
+
+```shell
+# make
+```
+
 ## Browser Extensios
 
 ##### Generic
@@ -470,26 +487,38 @@ brew cask install xbox360-controller-driver-unofficial
 
 ## Sistema
 
-### Preferências do Sistema
+### Preferências do sistema
 
 Cantos de acesso rápido:
 
-![Cantos de acesso rápido](./assets/cantos-de-acesso-rapido.png)
+![Preferências dos cantos de acesso rápido](./assets/settings-hot-corners.png)
 
 Teclado:
 
-![Teclado](./assets/keyboard-language.png)
+![Preferências do teclado](./assets/settings-keyboard-input-sources.png)
 
 Configurar arrastar e soltar no trackpad:
 
-![Teclado](./assets/settings-accessiblity.png)
+![Preferências do trackpad](./assets/settings-accessibility.png)
 
 ### Dashboard
 
 Apple apps:
 
-![Cantos de acesso rápido](./assets/macos-dashboard-apple-apps.png)
+![Organização da dashboard dos meus apps](./assets/macos-dashboard-apple-apps.png)
 
 Meus apps:
 
-![Cantos de acesso rápido](./assets/macos-dashboard-my-apps.png)
+![Organização da dashboard dos apps da Apple](./assets/macos-dashboard-my-apps.png)
+
+### Softwares Settings
+
+#### Contexts
+
+Atalho `Command-Tab`:
+
+![Configurações do atalho Command-Tab](./assets/contexts-command-tab.png)
+
+Atalho `Option-Tab`:
+
+![Configurações do atalho Option-Tab](./assets/contexts-option-tab.png.png)
