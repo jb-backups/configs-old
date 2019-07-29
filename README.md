@@ -83,6 +83,27 @@ Mudar o `shell` default para o `zsh`:
 chsh -s /bin/zsh
 ```
 
+### Shell
+
+Para adicionar e utilziar os snippets, basta baixar o repositório:
+
+```shell
+cd ~
+git clone git@github.com:dipp3r/configs.git ~/.config/personal
+```
+
+Adicionar a linha abaixo há no arquivo `.zshrc` ou `.bashrc`:
+
+```shell
+source ~/.config/personal/default.sh
+```
+
+ou execute o comando:
+
+```shell
+echo "\n\nsource ~/.config/personal/default.sh" >> ~/.zshrc
+```
+
 ### oh-my-zsh
 
 Instalar o zsh e o [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) para ter um terminal mais inteligente:
@@ -108,30 +129,15 @@ plugins=(
 )
 ```
 
-#### Customizações dos temas:
-
-##### `powerlevel9k`:
-
-Para usar as configurações, basta baixar o repositório.
-
-```shell
-cd ~
-git clone git@github.com:dipp3r/configs.git ~/.config/personal/powerlevel9k
-```
-
-Adicionar a linha abaixo há um dos dois arquivos `.zshrc` ou `.bashrc`:
-
-```shell
-source ~/.config/personal/powerlevel9k/config.sh
-```
-
-ou execute o comando:
-
-```shell
-echo "\n\nsource ~/.config/personal/powerlevel9k/config.sh" >> ~/.zshrc
-```
-
 #### Selecionar temas:
+
+##### Baixar e instalar o tema:
+
+```shell
+git clone https://github.com/bhilburn/powerlevel9k.git $ZSH_CUSTOM/themes/powerlevel9k
+git clone https://github.com/oskarkrawczyk/honukai-iterm-zsh.git $ZSH_CUSTOM/themes/honukai
+git clone https://github.com/carloscuesta/materialshell.git $ZSH_CUSTOM/themes/materialshell
+```
 
 ##### Para ativar o tema é necessário modificar o arquivo `.zshrc`:
 
@@ -147,35 +153,6 @@ ZSH_THEME="amuse"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 ZSH_THEME="honukai/honukai"
 ZSH_THEME="materialshell/materialshell"
-```
-
-##### Baixar e instalar:
-
-```shell
-git clone https://github.com/bhilburn/powerlevel9k.git $ZSH_CUSTOM/themes/powerlevel9k
-git clone https://github.com/oskarkrawczyk/honukai-iterm-zsh.git $ZSH_CUSTOM/themes/honukai
-git clone https://github.com/carloscuesta/materialshell.git $ZSH_CUSTOM/themes/materialshell
-```
-
-### Shell
-
-Para adicionar e utilziar os snippets, basta baixar o repositório:
-
-```shell
-cd ~
-git clone git@github.com:dipp3r/configs.git ~/.config/personal/shell
-```
-
-Adicionar a linha abaixo há um dos dois arquivos `.zshrc` ou `.bashrc`:
-
-```shell
-source ~/.config/personal/shell/snippets.sh
-```
-
-ou execute o comando:
-
-```shell
-echo "\n\nsource ~/.config/shell/snippets.sh" >> ~/.zshrc
 ```
 
 ### Command Line
@@ -499,25 +476,25 @@ brew cask install xbox360-controller-driver-unofficial
 
 Cantos de acesso rápido:
 
-![Preferências dos cantos de acesso rápido](./assets/settings-hot-corners.png)
+![Preferências dos cantos de acesso rápido](./assets/docs/settings-hot-corners.png)
 
 Teclado:
 
-![Preferências do teclado](./assets/settings-keyboard-input-sources.png)
+![Preferências do teclado](./assets/docs/settings-keyboard-input-sources.png)
 
 Configurar arrastar e soltar no trackpad:
 
-![Preferências do trackpad](./assets/settings-accessibility.png)
+![Preferências do trackpad](./assets/docs/settings-accessibility.png)
 
 ### Dashboard
 
 Apple apps:
 
-![Organização da dashboard dos meus apps](./assets/macos-dashboard-apple-apps.png)
+![Organização da dashboard dos meus apps](./assets/docs/macos-dashboard-apple-apps.png)
 
 Meus apps:
 
-![Organização da dashboard dos apps da Apple](./assets/macos-dashboard-my-apps.png)
+![Organização da dashboard dos apps da Apple](./assets/docs/macos-dashboard-my-apps.png)
 
 ### Softwares Settings
 
@@ -525,8 +502,8 @@ Meus apps:
 
 Atalho `Command-Tab`:
 
-![Configurações do atalho Command-Tab](./assets/contexts-command-tab.png)
+![Configurações do atalho Command-Tab](./assets/docs/contexts-command-tab.png)
 
 Atalho `Option-Tab`:
 
-![Configurações do atalho Option-Tab](./assets/contexts-option-tab.png.png)
+![Configurações do atalho Option-Tab](./assets/docs/contexts-option-tab.png.png)
