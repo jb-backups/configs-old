@@ -75,15 +75,7 @@ Host bitbucket.org
   IdentityFile ~/.ssh/id_rsa_personal
 ```
 
-### zsh
-
-Mudar o `shell` default para o `zsh`:
-
-```shell
-chsh -s /bin/zsh
-```
-
-### Shell
+### shell
 
 Para adicionar e utilziar os snippets, basta baixar o repositório:
 
@@ -102,6 +94,14 @@ ou execute o comando:
 
 ```shell
 echo "\n\nsource ~/.config/personal/default.sh" >> ~/.zshrc
+```
+
+### zsh
+
+Mudar o `shell` default para o `zsh`:
+
+```shell
+chsh -s /bin/zsh
 ```
 
 ### oh-my-zsh
