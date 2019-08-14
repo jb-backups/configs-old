@@ -394,6 +394,8 @@ Programas para designer:
 brew cask install aseprite
 brew cask install blender
 brew cask install gimp
+brew cask install hexels
+brew cask install krita
 brew cask install magicavoxel
 brew cask install unity
 ```
