@@ -382,7 +382,9 @@ brew cask install whatsapp
 Programas de música e mídia:
 
 ```shell
+brew cask install audacity
 brew cask install deezer
+brew cask install fl-studio
 brew cask install iina
 brew cask install spotify
 brew cask install vlc
@@ -414,6 +416,7 @@ Utilitários:
 brew cask install 1password
 brew cask install alfred
 brew cask install bartender
+brew cask install calibre # Conversor de e-Books
 brew cask install cheatsheet
 brew cask install cleanmymac
 brew cask install command-tab-plus
