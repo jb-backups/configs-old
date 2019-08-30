@@ -493,13 +493,9 @@ Configurar arrastar e soltar no trackpad:
 
 ### Dashboard
 
-Apple apps:
+Organização de apps:
 
-![Organização da dashboard dos meus apps](./assets/docs/macos-dashboard-apple-apps.png)
-
-Meus apps:
-
-![Organização da dashboard dos apps da Apple](./assets/docs/macos-dashboard-my-apps.png)
+![Organização da dashboard dos meus apps](./assets/docs/macos-dashboard-minimal-on-work.png)
 
 ### Softwares Settings
 
