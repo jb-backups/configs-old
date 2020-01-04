@@ -1,6 +1,6 @@
 # Configurar MacOS
 
-Tutorial para configurar o macOS.
+Tutorial para configurar o macOS e meus apps.
 
 ## Developer Tools
 
@@ -75,35 +75,6 @@ Host bitbucket.org
   IdentityFile ~/.ssh/id_rsa_personal
 ```
 
-### shell
-
-Para adicionar e utilziar os snippets, basta baixar o repositório:
-
-```shell
-cd ~
-git clone git@github.com:dipp3r/configs.git ~/.config/personal
-```
-
-Adicionar a linha abaixo há no arquivo `.zshrc` ou `.bashrc`:
-
-```shell
-source ~/.config/personal/default.sh
-```
-
-ou execute o comando:
-
-```shell
-echo "\n\nsource ~/.config/personal/default.sh" >> ~/.zshrc
-```
-
-### zsh
-
-Mudar o `shell` default para o `zsh`:
-
-```shell
-chsh -s /bin/zsh
-```
-
 ### oh-my-zsh
 
 Instalar o zsh e o [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) para ter um terminal mais inteligente:
@@ -153,6 +124,35 @@ ZSH_THEME="amuse"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 ZSH_THEME="honukai/honukai"
 ZSH_THEME="materialshell/materialshell"
+```
+
+### shell
+
+Para adicionar e utilziar os snippets, basta baixar o repositório:
+
+```shell
+cd ~
+git clone git@github.com:dipp3r/configs.git ~/.config/personal
+```
+
+Adicionar a linha abaixo há no arquivo `.zshrc` ou `.bashrc`:
+
+```shell
+source ~/.config/personal/default.sh
+```
+
+ou execute o comando:
+
+```shell
+echo "\n\nsource ~/.config/personal/default.sh" >> ~/.zshrc
+```
+
+### zsh
+
+Mudar o `shell` default para o `zsh`:
+
+```shell
+chsh -s /bin/zsh
 ```
 
 ### Command Line
