@@ -188,10 +188,10 @@ nvm install --lts
 Instalar pacotes globais:
 
 ```shell
+npm i -g create-react-app
 npm i -g generator-editorconfig
 npm i -g gitignore
 npm i -g nodemon
-npm i -g react-native-cli
 npm i -g yarn
 npm i -g yo
 ```
@@ -265,13 +265,6 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/
 ```
 
 ## Itens
-
-Instalar drivers, fontes e softwares utilizando a linha de comando:
-
-```shell
-brew tap caskroom/cask
-brew tap caskroom/fonts
-```
 
 Fontes que você vai precisar para programar no mac:
 
