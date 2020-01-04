@@ -470,6 +470,7 @@ Configurar perfil do iTerm2:
 - 1Password - [all browser](https://1password.com/downloads/mac/#browsers)
 - Fluid - [Website](https://fluidbrowser.com), [Chrome](https://chrome.google.com/webstore/detail/fluid-browser/lbechkjecpoldpfdbikjnabefdjahaok/related)
 - Mate Translate - [website](https://twopeoplesoftware.com/mate), [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/instant-translate/)
+- Enhancer for YouTube - [Chrome](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/)
 
 ##### Privacy
 
@@ -483,6 +484,10 @@ Configurar perfil do iTerm2:
 - CodeCopy - [Repository](https://github.com/zenorocha/codecopy), [Chrome](https://chrome.google.com/webstore/detail/codecopy/fkbfebkcoelajmhanocgppanfoojcdmg), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/codecopy/)
 - React Developer Tools - [Repository](https://github.com/facebook/react-devtools), [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi), [Firefox](https://addons.mozilla.org/firefox/addon/react-devtools/)
 - Redux DevTools Extension - [Repository](https://github.com/zalmoxisus/redux-devtools-extension), [Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/)
+
+##### Style
+
+- User Styles - [Website](https://userstyles.org)
 
 ## Drivers
 
