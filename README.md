@@ -228,6 +228,18 @@ Ou use o `yarn`:
 yarn global add react-native-cli
 ```
 
+#### xCode
+
+Instalar IDE:
+
+#### Android Studio
+
+Instalar IDE:
+
+```shell
+brew cask install android-studio
+```
+
 Adicionar a variável de ambiente no arquivo `.zshrc` ou `.bashrc`:
 
 ```shell
@@ -238,7 +250,7 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 ```
 
-### Java
+#### Java
 
 Instalar o JDK:
 
@@ -353,7 +365,7 @@ brew cask install github
 brew cask install gitkraken
 brew cask install insomnia
 brew cask install postman
-brew cask install react-native-debbuger
+brew cask install react-native-debugger
 brew cask install reactotron
 brew cask install sourcetree
 ```
@@ -386,6 +398,7 @@ brew cask install audacity
 brew cask install deezer
 brew cask install fl-studio
 brew cask install iina
+brew cask install lmms
 brew cask install spotify
 brew cask install vlc
 ```
@@ -399,6 +412,12 @@ brew cask install gimp
 brew cask install hexels
 brew cask install krita
 brew cask install magicavoxel
+```
+
+Programas para dame developer:
+
+```shell
+brew cask install godot
 brew cask install unity
 ```
 
@@ -508,3 +527,21 @@ Atalho `Command-Tab`:
 Atalho `Option-Tab`:
 
 ![Configurações do atalho Option-Tab](./assets/docs/contexts-option-tab.png.png)
+
+## Telegram
+
+### Telegram Desktop
+
+Temas:
+
+- Ponsfrilus: [download](https://t.me/desktopThemes/286)
+
+![ponsfrilus - v1](./assets/apps/telegram/theme-tdesktop-ponsfrilus.jpg)
+
+### Telegram Web
+
+Temas:
+
+- Telegram MODERN: [download](https://userstyles.org/styles/170604/telegram-modern)
+
+![Telegram MODERN](./assets/apps/telegram/theme-tweb-modern.jpeg)
