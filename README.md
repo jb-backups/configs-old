@@ -414,7 +414,7 @@ brew cask install krita
 brew cask install magicavoxel
 ```
 
-Programas para dame developer:
+Programas para game developer:
 
 ```shell
 brew cask install godot
@@ -434,13 +434,14 @@ Utilitários:
 ```shell
 brew cask install 1password
 brew cask install alfred
+brew cask install balenaetcher
 brew cask install bartender
 brew cask install calibre # Conversor de e-Books
 brew cask install cheatsheet
 brew cask install cleanmymac
 brew cask install command-tab-plus
 brew cask install contexts
-brew cask install balenaetcher
+brew cask install google-backup-and-sync
 brew cask install iexplorer
 brew cask install rocket
 brew cask install vanilla
