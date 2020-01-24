@@ -483,6 +483,27 @@ Configurar perfil do iTerm2:
 
 - User Styles - [Website](https://userstyles.org)
 
+## Browser Websites Style
+
+- [Manual do Usuário.net](https://manualdousuario.net)
+
+```css
+body {
+  color: #b2bec3;
+  background: #2d3436;
+}
+```
+
+- [Nexo Jornal](https://www.nexojornal.com.br/)
+
+```css
+.PaywallBanner__container___3ee6w {
+  display: none;
+}
+```
+
+- [Web Telegram](https://web.telegram.org/): [Download](https://userstyles.org/styles/170604/telegram-modern)
+
 ## Drivers
 
 Instalar drivers:
