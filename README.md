@@ -1,6 +1,6 @@
 # Configurar MacOS
 
-Tutorial para configurar o macOS.
+Tutorial para configurar o macOS e meus apps.
 
 ## Developer Tools
 
@@ -75,35 +75,6 @@ Host bitbucket.org
   IdentityFile ~/.ssh/id_rsa_personal
 ```
 
-### shell
-
-Para adicionar e utilziar os snippets, basta baixar o repositório:
-
-```shell
-cd ~
-git clone git@github.com:dipp3r/configs.git ~/.config/personal
-```
-
-Adicionar a linha abaixo há no arquivo `.zshrc` ou `.bashrc`:
-
-```shell
-source ~/.config/personal/default.sh
-```
-
-ou execute o comando:
-
-```shell
-echo "\n\nsource ~/.config/personal/default.sh" >> ~/.zshrc
-```
-
-### zsh
-
-Mudar o `shell` default para o `zsh`:
-
-```shell
-chsh -s /bin/zsh
-```
-
 ### oh-my-zsh
 
 Instalar o zsh e o [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) para ter um terminal mais inteligente:
@@ -155,6 +126,35 @@ ZSH_THEME="honukai/honukai"
 ZSH_THEME="materialshell/materialshell"
 ```
 
+### shell
+
+Para adicionar e utilziar os snippets, basta baixar o repositório:
+
+```shell
+cd ~
+git clone git@github.com:dipp3r/configs.git ~/.config/personal
+```
+
+Adicionar a linha abaixo há no arquivo `.zshrc` ou `.bashrc`:
+
+```shell
+source ~/.config/personal/default.sh
+```
+
+ou execute o comando:
+
+```shell
+echo "\n\nsource ~/.config/personal/default.sh" >> ~/.zshrc
+```
+
+### zsh
+
+Mudar o `shell` default para o `zsh`:
+
+```shell
+chsh -s /bin/zsh
+```
+
 ### Command Line
 
 Instalar ferramentas do terminal
@@ -188,10 +188,10 @@ nvm install --lts
 Instalar pacotes globais:
 
 ```shell
+npm i -g create-react-app
 npm i -g generator-editorconfig
 npm i -g gitignore
 npm i -g nodemon
-npm i -g react-native-cli
 npm i -g yarn
 npm i -g yo
 ```
@@ -265,13 +265,6 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/
 ```
 
 ## Itens
-
-Instalar drivers, fontes e softwares utilizando a linha de comando:
-
-```shell
-brew tap caskroom/cask
-brew tap caskroom/fonts
-```
 
 Fontes que você vai precisar para programar no mac:
 
@@ -489,6 +482,27 @@ Configurar perfil do iTerm2:
 ##### Style
 
 - User Styles - [Website](https://userstyles.org)
+
+## Browser Websites Style
+
+- [Manual do Usuário.net](https://manualdousuario.net)
+
+```css
+body {
+  color: #b2bec3;
+  background: #2d3436;
+}
+```
+
+- [Nexo Jornal](https://www.nexojornal.com.br/)
+
+```css
+.PaywallBanner__container___3ee6w {
+  display: none;
+}
+```
+
+- [Web Telegram](https://web.telegram.org/): [Download](https://userstyles.org/styles/170604/telegram-modern)
 
 ## Drivers
 
