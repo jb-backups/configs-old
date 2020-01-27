@@ -3,6 +3,8 @@
 n() npm $*;
 ns() npm start;
 nr() npm run $*;
+nl() npm list --depth=0;
+nlg() npm list -g --depth=0;
 ni() npm i $*;
 nig() npm i -g $*;
 nis() npm i -S $*;
