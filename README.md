@@ -230,7 +230,7 @@ yarn global add react-native-cli
 
 #### xCode
 
-Instalar IDE:
+Instalar IDE
 
 #### Android Studio
 
