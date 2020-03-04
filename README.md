@@ -384,6 +384,13 @@ brew cask install telegram-desktop
 brew cask install whatsapp
 ```
 
+Programas de email:
+
+```shell
+brew cask install mailspring
+brew cask install thunderbird
+```
+
 Programas de música e mídia:
 
 ```shell
@@ -393,17 +400,23 @@ brew cask install fl-studio
 brew cask install iina
 brew cask install lmms
 brew cask install spotify
+brew cask install stremio # Tipo o Pop Corntime
 brew cask install vlc
 ```
 
 Programas para designer:
 
 ```shell
-brew cask install aseprite
 brew cask install blender
 brew cask install gimp
-brew cask install hexels
 brew cask install krita
+```
+
+Programas para pixel art:
+
+```shell
+brew cask install aseprite
+brew cask install hexels
 brew cask install magicavoxel
 ```
 
@@ -411,14 +424,16 @@ Programas para game developer:
 
 ```shell
 brew cask install godot
-brew cask install unity
+brew cask install unity-hub
 ```
 
 Apps para jogar:
 
 ```shell
 brew cask install battle-net
+brew cask install epic-games
 brew cask install openemu
+brew cask install retroarch-metal
 brew cask install steam
 ```
 
@@ -434,8 +449,12 @@ brew cask install cheatsheet
 brew cask install cleanmymac
 brew cask install command-tab-plus
 brew cask install contexts
-brew cask install google-backup-and-sync
+brew cask install deepl # Tipo Google Traduto
+brew cask install dozer # Tipo o Vanilla e Bartender
+brew cask install google-backup-and-sync # Google Drive
+brew cask install hiddenbar # Tipo o Vanilla e Bartender
 brew cask install iexplorer
+brew cask install onlyoffice
 brew cask install rocket
 brew cask install vanilla
 brew cask install virtualbox
