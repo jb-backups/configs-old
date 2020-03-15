@@ -232,6 +232,12 @@ yarn global add react-native-cli
 
 Instalar IDE
 
+#### .NET Code
+
+```shell
+brew cask install dotnet-sdk
+```
+
 #### Android Studio
 
 Instalar IDE:
@@ -409,6 +415,7 @@ Programas para designer:
 ```shell
 brew cask install blender
 brew cask install gimp
+brew cask install inkscape
 brew cask install krita
 ```
 
@@ -423,6 +430,7 @@ brew cask install magicavoxel
 Programas para game developer:
 
 ```shell
+brew cask install dotnet-sdk
 brew cask install godot
 brew cask install unity-hub
 ```
