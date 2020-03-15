@@ -113,13 +113,13 @@ git clone https://github.com/carloscuesta/materialshell.git $ZSH_CUSTOM/themes/m
 ##### Para ativar o tema é necessário modificar o arquivo `.zshrc`:
 
 ```shell
-## Default themes
+# Default themes
 
 ZSH_THEME="agnoster"
 ZSH_THEME="gnzh"
 ZSH_THEME="amuse"
 
-## Custom themes
+# Custom themes
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 ZSH_THEME="honukai/honukai"
