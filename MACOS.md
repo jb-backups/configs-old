@@ -2,6 +2,16 @@
 
 ## Developer Tools
 
+### Git
+
+Instalar ferramenta de controle de versão:
+
+```shell
+# MacOS
+brew install git
+brew install git-flow-avh
+```
+
 ### Homebrew
 
 O mac não tem um apt-get, mas tem o [Homebrew](https://brew.sh/index_pt-br) para instalar e gerenciar, ferramentas de linha de comando e softwares.

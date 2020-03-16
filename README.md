@@ -4,19 +4,11 @@
 
 ### Git
 
-Instalar ferramenta de controle de versão:
-
-```shell
-# MacOS
-brew install git
-brew install git-flow-avh
-```
-
 Configurar informações do [git](https://git-scm.com):
 
 ```shell
-git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
 ```
 
 ### ssh
