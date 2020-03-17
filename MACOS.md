@@ -278,7 +278,7 @@ Configurar arrastar e soltar no trackpad:
 
 Organização de apps:
 
-![Organização da dashboard dos meus apps](./assets/docs/macos-dashboard-minimal-on-work.png)
+![Organização da dashboard dos meus apps](./assets/docs/macos-dashboard-minimal.png)
 
 ### Softwares
 
