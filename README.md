@@ -121,7 +121,7 @@ Para adicionar e utilziar os snippets, basta baixar o repositório:
 
 ```shell
 cd ~
-git clone git@github.com:dipp3r/configs.git ~/.config/personal
+git clone git@github.com:jonathanbergson/configs.git ~/.config/personal
 ```
 
 Adicionar a linha abaixo há no arquivo `.zshrc` ou `.bashrc`:
@@ -140,13 +140,21 @@ echo "\n\nsource ~/.config/personal/default.sh" >> ~/.zshrc
 
 ### ASDF - Manage Runtime Versions
 
+Instalar o gerenciador de versão:
+
+```shell
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+cd ~/.asdf
+git checkout "$(git describe --abbrev=0 --tags)"
+```
+
 ### .NET Code
 
 ```shell
-# MacOS
-brew cask install dotnet-sdk
-
-# Linux
+asdf plugin-add dotnet-core https://github.com/emersonsoares/asdf-dotnet-core.git
+asdf list all dotnet-core
+asdf install asdf global elixir 1.2.4
+asdf global asdf global elixir 1.2.4
 ```
 
 ### Node

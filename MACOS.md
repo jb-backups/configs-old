@@ -291,3 +291,9 @@ Atalho `Command-Tab`:
 Atalho `Option-Tab`:
 
 ![Configurações do atalho Option-Tab](./assets/docs/contexts-option-tab.png.png)
+
+#### Dozer
+
+Configurações:
+
+![Configurações do Dozer](./assets/docs/dozer-settings.png)
