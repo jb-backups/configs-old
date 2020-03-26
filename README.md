@@ -121,7 +121,7 @@ Para adicionar e utilziar os snippets, basta baixar o repositório:
 
 ```shell
 cd ~
-git clone git@github.com:dipp3r/configs.git ~/.config/personal
+git clone git@github.com:jonathanbergson/configs.git ~/.config/personal
 ```
 
 Adicionar a linha abaixo há no arquivo `.zshrc` ou `.bashrc`:
@@ -140,52 +140,47 @@ echo "\n\nsource ~/.config/personal/default.sh" >> ~/.zshrc
 
 ### ASDF - Manage Runtime Versions
 
+Instalar o gerenciador de versão:
+
+```shell
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+cd ~/.asdf
+git checkout "$(git describe --abbrev=0 --tags)"
+```
+
 ### .NET Code
 
 ```shell
-# MacOS
-brew cask install dotnet-sdk
-
-# Linux
+asdf plugin-add dotnet-core https://github.com/emersonsoares/asdf-dotnet-core.git
+asdf list all dotnet-core
+asdf install asdf global elixir 1.2.4
+asdf global asdf global elixir 1.2.4
 ```
 
 ### Node
 
-Instalar o gerenciador de versão do node:
-
 ```shell
-brew install nvm
+# MacOS
+brew install coreutils
+brew install gpg
+
+# Linux
+apt-get install dirmngr
+apt-get install gpg
 ```
 
-Adicionar a variável de ambiente no arquivo `.zshrc` ou `.bashrc`:
-
 ```shell
-export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+
+asdf list all nodejs
+asdf install nodejs latest
+asdf global nodejs 13.11.0
 ```
 
-Instalar a versão `lts` do node:
-
 ```shell
-nvm install --lts
+npm i -g create-react-app generator-editorconfig gitignore nodemon react-native-cli yarn yo
 ```
-
-#### Pacotes globais:
-
-```shell
-npm i -g create-react-app
-npm i -g generator-editorconfig
-npm i -g gitignore
-npm i -g nodemon
-npm i -g react-native-cli
-npm i -g yarn
-npm i -g yo
-```
-
-#### npm
-
-Configurar as variáveis default do [npm](npmjs.com):
 
 ```shell
 npm config set init-author-name "Your name"
@@ -194,6 +189,14 @@ npm config set init-author-url "http://domain.com"
 npm config set init-license "MIT"
 ```
 
-### Java
+###### Mode antigo:
 
-### React Native
+```shell
+brew install nvm
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+
+nvm install --lts
+```
