@@ -194,9 +194,11 @@ brew cask install magicavoxel
 Programas para game developer:
 
 ```shell
+brew install mono
 brew cask install dotnet-sdk
 brew cask install godot
 brew cask install unity-hub
+brew cask install visual-studio
 ```
 
 Apps para jogar:
