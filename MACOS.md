@@ -266,15 +266,15 @@ brew cask install xbox360-controller-driver-unofficial
 
 Cantos de acesso rápido:
 
-![Preferências dos cantos de acesso rápido](./assets/docs/settings-hot-corners.png)
+![Preferências dos cantos de acesso rápido](./assets/docs/macos-settings-hot-corners.png)
 
 Teclado:
 
-![Preferências do teclado](./assets/docs/settings-keyboard-input-sources.png)
+![Preferências do teclado](./assets/docs/macos-settings-keyboard-input-sources.png)
 
 Configurar arrastar e soltar no trackpad:
 
-![Preferências do trackpad](./assets/docs/settings-accessibility.png)
+![Preferências do trackpad](./assets/docs/macos-settings-accessibility.png)
 
 ### Dashboard
 
@@ -288,14 +288,14 @@ Organização de apps:
 
 Atalho `Command-Tab`:
 
-![Configurações do atalho Command-Tab](./assets/docs/contexts-command-tab.png)
+![Configurações do atalho Command-Tab](./assets/docs/macos-apps-contexts-command-tab.png)
 
 Atalho `Option-Tab`:
 
-![Configurações do atalho Option-Tab](./assets/docs/contexts-option-tab.png.png)
+![Configurações do atalho Option-Tab](./assets/docs/macos-apps-contexts-option-tab.png.png)
 
 #### Dozer
 
 Configurações:
 
-![Configurações do Dozer](./assets/docs/dozer-settings.png)
+![Configurações do Dozer](./assets/docs/macos-apps-dozer-settings.png)
