@@ -40,8 +40,14 @@ body {
 - [Nexo Jornal](https://www.nexojornal.com.br/)
 
 ```css
-.PaywallBanner__container___3ee6w {
+[class^="PaywallBanner__container"],
+[class^="Datawall__wrap-container"] {
   display: none;
+}
+
+.datawall-bump {
+  overflow-x: auto;
+  overflow-y: auto;
 }
 ```
 
