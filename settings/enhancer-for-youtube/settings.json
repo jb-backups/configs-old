@@ -7,7 +7,7 @@
         "blur": 0,
         "brightness": 100,
         "cinemamode": true,
-        "cinemamodewideplayer": false,
+        "cinemamodewideplayer": true,
         "contrast": 100,
         "controlvolume": false,
         "controlvolumemousebutton": false,
