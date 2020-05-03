@@ -126,6 +126,7 @@ brew cask install webstorm
 Ferramentas de desenvolvimento:
 
 ```shell
+brew install ctop # Manage docker containers
 brew cask install dash
 brew cask install docker
 brew cask install github
