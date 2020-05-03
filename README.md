@@ -117,7 +117,7 @@ chsh -s /bin/zsh
 
 ### shell
 
-Para adicionar e utilziar os snippets, basta baixar o repositório:
+Para adicionar e utilizar os snippets, basta baixar o repositório:
 
 ```shell
 cd ~
@@ -189,7 +189,7 @@ npm config set init-author-url "http://domain.com"
 npm config set init-license "MIT"
 ```
 
-###### Mode antigo:
+###### Modo antigo:
 
 ```shell
 brew install nvm
