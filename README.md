@@ -1,5 +1,15 @@
 # Configuracões
 
+- Operational System
+  - [Linux](https://github.com/jonathanbergson/configs/blob/master/assets/configs/operational%20system/LINUX.md)
+  - [MacOS](https://github.com/jonathanbergson/configs/blob/master/assets/configs/operational%20system/MACOS.md)
+  - [Windows](https://github.com/jonathanbergson/configs/blob/master/assets/configs/operational%20system/WINDOWS.md)
+- Other
+  - [Browser](https://github.com/jonathanbergson/configs/blob/master/assets/configs/other/BROWSER.md)
+  - [Text Editor](https://github.com/jonathanbergson/configs/blob/master/assets/configs/other/EDITORS.md)
+  - [Softwares](https://github.com/jonathanbergson/configs/blob/master/assets/configs/other/SOFTWARES.md)
+- [Old Settings](https://github.com/jonathanbergson/configs/blob/master/assets/configs/OLD.md)
+
 ## Developer Tools
 
 ### Git
