@@ -91,6 +91,10 @@ mas install 1266674560    # Wallpaper Wizard
 
 ## Softwares
 
+Download:
+
+- [Day-O](https://shauninman.com/archive/2020/04/08/day_o_mac_menu_bar_clock_for_catalina)
+
 Navegadores:
 
 ```shell
@@ -122,6 +126,7 @@ brew cask install webstorm
 Ferramentas de desenvolvimento:
 
 ```shell
+brew install ctop # Manage docker containers
 brew cask install dash
 brew cask install docker
 brew cask install github
