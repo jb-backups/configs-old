@@ -51,7 +51,7 @@
         "theme": "youtube-deep-dark-pink.css",
         "toolbarbackgroundcolor": "#ffffff",
         "toolbarbordercolor": "#cccccc",
-        "toolbarbuttons": "clean,cinema,resize,detach",
+        "toolbarbuttons": "clean,cinema,detach",
         "toolbarcolor": "#000000",
         "toolbarcoloractive": "#000000",
         "toolbaropacity": 30,
