@@ -32,8 +32,32 @@
 
 ```css
 body {
-  color: #b2bec3;
-  background: #2d3436;
+	color: #dfe6e9;
+}
+
+body, input, textarea {
+	background: #2d3436;
+}
+
+a {
+    color: #faa613;
+}
+
+a:hover,
+a:focus {
+    color: #f33a3a;
+}
+
+a:visited {
+	color: #b1740f;
+}
+
+figcaption {
+	color: #636e72 !important;
+}
+
+.entry-title {
+	color: #dfe6e9;
 }
 ```
 
