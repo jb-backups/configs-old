@@ -36,7 +36,7 @@ body {
 }
 
 body, input, textarea {
-	background: #2d3436;
+	background: #212529;
 }
 
 a {
