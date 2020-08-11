@@ -118,6 +118,7 @@ brew cask install android-studio
 brew cask install atom
 brew cask install hyper
 brew cask install iterm2
+brew cask install mark-text # Markdown Editor
 brew cask install sublime-text
 brew cask install visual-studio-code
 brew cask install webstorm
