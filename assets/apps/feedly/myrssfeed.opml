@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <head>
+        <title>Jonathan subscriptions in feedly Cloud</title>
+    </head>
+    <body>
+        <outline text="Must Read" title="Must Read">
+            <outline type="rss" text="Polygon Runway" title="Polygon Runway" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCGSJevmBuDyxjLLOBNaYMGA" htmlUrl="https://www.youtube.com/channel/UCGSJevmBuDyxjLLOBNaYMGA"/>
+            <outline type="rss" text="Jovem Nerd (uploads) on YouTube" title="Jovem Nerd (uploads) on YouTube" xmlUrl="http://gdata.youtube.com/feeds/base/users/JovemNerd/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile" htmlUrl="https://youtube.com/playlist?list=UUmEClzCBDx-vrt0GuSKBd9g"/>
+            <outline type="rss" text="Brackeys" title="Brackeys" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYbK_tjZ2OrIZFBvU6CCMiA" htmlUrl="https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA"/>
+            <outline type="rss" text="Pinho (uploads) on YouTube" title="Pinho (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UU7Xog4-zhRQKbahvs27I7Ow" htmlUrl="https://youtube.com/playlist?list=UU7Xog4-zhRQKbahvs27I7Ow"/>
+            <outline type="rss" text="BrazilJS (uploads) on YouTube" title="BrazilJS (uploads) on YouTube" xmlUrl="http://gdata.youtube.com/feeds/base/users/BrazilJS/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile" htmlUrl="https://youtube.com/playlist?list=UUnLdHOuue5i1O7TsH6oh07w"/>
+        </outline>
+
+        <outline text="3D" title="3D">
+            <outline type="rss" text="Blender Guru (uploads) on YouTube" title="Blender Guru (uploads) on YouTube" xmlUrl="http://gdata.youtube.com/feeds/base/users/AndrewPPrice/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile" htmlUrl="https://youtube.com/playlist?list=UUOKHwx1VCdgnxwbjyb9Iu1g"/>
+            <outline type="rss" text="CG Boost" title="CG Boost" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCWWybvw9jnpOdJq_6wTHryA" htmlUrl="https://www.youtube.com/channel/UCWWybvw9jnpOdJq_6wTHryA"/>
+            <outline type="rss" text="Daniel Pinheiro Lima" title="Daniel Pinheiro Lima" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCaKLXJ6GYT9kUkt820AxwYw" htmlUrl="https://www.youtube.com/channel/UCaKLXJ6GYT9kUkt820AxwYw"/>
+            <outline type="rss" text="Quixel" title="Quixel" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNTZFGRsyqNtvI4T2syNkIw" htmlUrl="https://www.youtube.com/channel/UCNTZFGRsyqNtvI4T2syNkIw"/>
+            <outline type="rss" text="Ducky 3D" title="Ducky 3D" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCuNhGhbemBkdflZ1FGJ0lUQ" htmlUrl="https://www.youtube.com/channel/UCuNhGhbemBkdflZ1FGJ0lUQ"/>
+            <outline type="rss" text="beffio" title="beffio" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCv5F_BUKm-cFxlFV9ysyI4Q" htmlUrl="https://www.youtube.com/channel/UCv5F_BUKm-cFxlFV9ysyI4Q"/>
+            <outline type="rss" text="blender.org" title="blender.org" xmlUrl="http://www.blender.org/feed/" htmlUrl="https://www.blender.org"/>
+            <outline type="rss" text="Blender Secrets (uploads) on YouTube" title="Blender Secrets (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UUp7EwodJcppc6GqiRcnCpOw" htmlUrl="https://youtube.com/playlist?list=UUp7EwodJcppc6GqiRcnCpOw"/>
+            <outline type="rss" text="Blender" title="Blender" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSMOQeBJ2RAnuFungnQOxLg" htmlUrl="https://www.youtube.com/channel/UCSMOQeBJ2RAnuFungnQOxLg"/>
+            <outline type="rss" text="CG Cookie" title="CG Cookie" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9VayT7q3pQ7tdF-TG4Q0yQ" htmlUrl="https://www.youtube.com/channel/UC9VayT7q3pQ7tdF-TG4Q0yQ"/>
+            <outline type="rss" text="InsightZ" title="InsightZ" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYXoautmTvZFuU1Lj6XLJ8Q" htmlUrl="https://www.youtube.com/channel/UCYXoautmTvZFuU1Lj6XLJ8Q"/>
+        </outline>
+        <outline text="3D Community" title="3D Community">
+            <outline type="rss" text="BlenderNation" title="BlenderNation" xmlUrl="http://www.blendernation.com/feed/" htmlUrl="https://www.blendernation.com"/>
+            <outline type="rss" text="Blender Artists Community - Latest topics" title="Blender Artists Community - Latest topics" xmlUrl="https://blenderartists.org/latest.rss" htmlUrl="https://blenderartists.org/latest"/>
+        </outline>
+        <outline text="3D Timelapse" title="3D Timelapse">
+            <outline type="rss" text="Polygon Runway" title="Polygon Runway" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCGSJevmBuDyxjLLOBNaYMGA" htmlUrl="https://www.youtube.com/channel/UCGSJevmBuDyxjLLOBNaYMGA"/>
+            <outline type="rss" text="REM118" title="REM118" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCcMWB_qsdrPyhWV3N3e3ygA" htmlUrl="https://www.youtube.com/channel/UCcMWB_qsdrPyhWV3N3e3ygA"/>
+            <outline type="rss" text="MinionsArt" title="MinionsArt" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCXPnfpikLeCQAzweo3-OSuw" htmlUrl="https://www.youtube.com/channel/UCXPnfpikLeCQAzweo3-OSuw"/>
+        </outline>
+        <outline text="Developer" title="Developer">
+            <outline type="rss" text="Gabriel Pato" title="Gabriel Pato" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC70YG2WHVxlOJRng4v-CIFQ" htmlUrl="https://www.youtube.com/channel/UC70YG2WHVxlOJRng4v-CIFQ"/>
+            <outline type="rss" text="Fun Fun Function (uploads) on YouTube" title="Fun Fun Function (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UUO1cgjhGzsSYb1rsB4bFe4Q" htmlUrl="https://youtube.com/playlist?list=UUO1cgjhGzsSYb1rsB4bFe4Q"/>
+            <outline type="rss" text="Fabio Akita" title="Fabio Akita" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCib793mnUOhWymCh2VJKplQ" htmlUrl="https://www.youtube.com/channel/UCib793mnUOhWymCh2VJKplQ"/>
+            <outline type="rss" text="Alligator.io" title="Alligator.io" xmlUrl="https://alligator.io/feed.xml" htmlUrl="https://alligator.io/"/>
+            <outline type="rss" text="Rocketseat (uploads) on YouTube" title="Rocketseat (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UUSfwM5u0Kce6Cce8_S72olg" htmlUrl="https://youtube.com/playlist?list=UUSfwM5u0Kce6Cce8_S72olg"/>
+            <outline type="rss" text="BrazilJS (uploads) on YouTube" title="BrazilJS (uploads) on YouTube" xmlUrl="http://gdata.youtube.com/feeds/base/users/BrazilJS/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile" htmlUrl="https://youtube.com/playlist?list=UUnLdHOuue5i1O7TsH6oh07w"/>
+            <outline type="rss" text="Filipe Deschamps (uploads) on YouTube" title="Filipe Deschamps (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UUU5JicSrEM5A63jkJ2QvGYw" htmlUrl="https://youtube.com/playlist?list=UUU5JicSrEM5A63jkJ2QvGYw"/>
+        </outline>
+        <outline text="Developer Newsletter" title="Developer Newsletter">
+            <outline type="rss" text="JavaScript Weekly" title="JavaScript Weekly" xmlUrl="http://javascriptweekly.com/rss" htmlUrl="https://javascriptweekly.com/"/>
+            <outline type="rss" text="Mobile Dev Weekly" title="Mobile Dev Weekly" xmlUrl="http://mobilewebweekly.co/rss/1o7ebm00" htmlUrl="https://mobiledevweekly.com/"/>
+            <outline type="rss" text="Node Weekly" title="Node Weekly" xmlUrl="http://nodeweekly.com/rss/1j9a0ll9" htmlUrl="https://nodeweekly.com/"/>
+            <outline type="rss" text="Frontend Focus" title="Frontend Focus" xmlUrl="http://html5weekly.com/rss" htmlUrl="https://frontendfoc.us/"/>
+            <outline type="rss" text="React Status" title="React Status" xmlUrl="https://react.statuscode.com/rss" htmlUrl="https://react.statuscode.com/"/>
+        </outline>
+        <outline text="Game" title="Game">
+            <outline type="rss" text="Meio Bit" title="Meio Bit" xmlUrl="http://meiobit.com/index.xml" htmlUrl="https://tecnoblog.net/meiobit"/>
+            <outline type="rss" text="The Enemy (uploads) on YouTube" title="The Enemy (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UUHCcdjkFeWndu5UixT1xswQ" htmlUrl="https://youtube.com/playlist?list=UUHCcdjkFeWndu5UixT1xswQ"/>
+            <outline type="rss" text="IGN Brasil" title="IGN Brasil" xmlUrl="http://br.ign.com/feed.xml" htmlUrl="https://br.ign.com"/>
+            <outline type="rss" text="Gameplayrj" title="Gameplayrj" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJAbkIY17zAmCTNQHH0bQoQ" htmlUrl="https://www.youtube.com/channel/UCJAbkIY17zAmCTNQHH0bQoQ"/>
+            <outline type="rss" text="CENTRAL (uploads) on YouTube" title="CENTRAL (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UUoTIpyf8_RGzJ1LPTmvadaA" htmlUrl="https://youtube.com/playlist?list=UUoTIpyf8_RGzJ1LPTmvadaA"/>
+            <outline type="rss" text="Arkade" title="Arkade" xmlUrl="http://feeds.feedburner.com/ArkadeGames" htmlUrl="https://www.arkade.com.br"/>
+            <outline type="rss" text="Nautilus" title="Nautilus" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC4LewKZKQecmfRbHI1Rzh5A" htmlUrl="https://www.youtube.com/channel/UC4LewKZKQecmfRbHI1Rzh5A"/>
+            <outline type="rss" text="Jogabilidade" title="Jogabilidade" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCpSehaScn2yickewfmw_8sw" htmlUrl="https://www.youtube.com/channel/UCpSehaScn2yickewfmw_8sw"/>
+        </outline>
+        <outline text="Game Engine" title="Game Engine">
+            <outline type="rss" text="Godot Engine" title="Godot Engine" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCKIDvfZD1ZhY4_hhbotf7wA" htmlUrl="https://www.youtube.com/channel/UCKIDvfZD1ZhY4_hhbotf7wA"/>
+        </outline>
+        <outline text="Game Developer" title="Game Developer">
+            <outline type="rss" text="johnnygossdev" title="johnnygossdev" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCyUxf1-S8pxZBkBR-3YSsLg" htmlUrl="https://www.youtube.com/channel/UCyUxf1-S8pxZBkBR-3YSsLg"/>
+            <outline type="rss" text="Fábrica de Jogos" title="Fábrica de Jogos" xmlUrl="http://feeds.feedburner.com/RssFabricaDeJogos" htmlUrl="https://www.fabricadejogos.net"/>
+            <outline type="rss" text="Produção de Jogos" title="Produção de Jogos" xmlUrl="http://producaodejogos.com/feed/" htmlUrl="https://producaodejogos.com"/>
+            <outline type="rss" text="Brackeys" title="Brackeys" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYbK_tjZ2OrIZFBvU6CCMiA" htmlUrl="https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA"/>
+            <outline type="rss" text="GDQuest" title="GDQuest" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCxboW7x0jZqFdvMdCFKTMsQ" htmlUrl="https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ"/>
+            <outline type="rss" text="Indie Power (uploads) on YouTube" title="Indie Power (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UURupyPv9YUuySaGnPVMHBYA" htmlUrl="https://youtube.com/playlist?list=UURupyPv9YUuySaGnPVMHBYA"/>
+            <outline type="rss" text="25games (uploads) on YouTube" title="25games (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UUAwIcpxPyhggo-c_kWywKsg" htmlUrl="https://youtube.com/playlist?list=UUAwIcpxPyhggo-c_kWywKsg"/>
+            <outline type="rss" text="HeartBeast" title="HeartBeast" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCrHQNOyU1q6BFEfkNq2CYMA" htmlUrl="https://www.youtube.com/channel/UCrHQNOyU1q6BFEfkNq2CYMA"/>
+            <outline type="rss" text="Game Developer" title="Game Developer" xmlUrl="http://gamedeveloper.com.br/rss.xml" htmlUrl="https://gamedeveloper.com.br"/>
+            <outline type="rss" text="Mol feito, mas da para entender" title="Mol feito, mas da para entender" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHL8FsM7_yva0dMEz4w2V8A" htmlUrl="https://www.youtube.com/channel/UCHL8FsM7_yva0dMEz4w2V8A"/>
+            <outline type="rss" text="Ask Gamedev (uploads) on YouTube" title="Ask Gamedev (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UUd_lJ4zSp9wZDNyeKCWUstg" htmlUrl="https://youtube.com/playlist?list=UUd_lJ4zSp9wZDNyeKCWUstg"/>
+            <outline type="rss" text="Pigdev" title="Pigdev" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCFK9ZoVDqDgY6KGMcHEloFw" htmlUrl="https://www.youtube.com/channel/UCFK9ZoVDqDgY6KGMcHEloFw"/>
+        </outline>
+        <outline text="Hardware" title="Hardware">
+            <outline type="rss" text="Chipart" title="Chipart" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCEChZJkk2d6-QP-dZ63sBbw" htmlUrl="https://www.youtube.com/channel/UCEChZJkk2d6-QP-dZ63sBbw"/>
+            <outline type="rss" text="Adrenaline" title="Adrenaline" xmlUrl="https://adrenaline.uol.com.br/rss" htmlUrl="https://adrenaline.com.br/rss"/>
+            <outline type="rss" text="Adrenaline (uploads) on YouTube" title="Adrenaline (uploads) on YouTube" xmlUrl="http://gdata.youtube.com/feeds/base/users/Adrenaline/uploads?v=2&amp;alt=rss&amp;client=ytapi-youtube-rss-redirect&amp;orderby=updated" htmlUrl="https://youtube.com/playlist?list=UUGH4Wx-WL10iB4ZAdewkuDw"/>
+        </outline>
+        <outline text="Illustration" title="Illustration">
+            <outline type="rss" text="Trent Kaniuga" title="Trent Kaniuga" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCmRm1xtLIpBhuWjTyD411pA" htmlUrl="https://www.youtube.com/channel/UCmRm1xtLIpBhuWjTyD411pA"/>
+            <outline type="rss" text="Brush Rush com Guilherme Freitas" title="Brush Rush com Guilherme Freitas" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLHzGMGugFOiwaBAjivQ_JQ" htmlUrl="https://www.youtube.com/channel/UCLHzGMGugFOiwaBAjivQ_JQ"/>
+            <outline type="rss" text="Canal Ilustrando (uploads) on YouTube" title="Canal Ilustrando (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UUc4fAgUwRJxAZJ0fQpMgz-w" htmlUrl="https://youtube.com/playlist?list=UUc4fAgUwRJxAZJ0fQpMgz-w"/>
+            <outline type="rss" text="Gawx Art (uploads) on YouTube" title="Gawx Art (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UUFDxyA1H3VEN0VQwfMe2VMQ" htmlUrl="https://youtube.com/playlist?list=UUFDxyA1H3VEN0VQwfMe2VMQ"/>
+            <outline type="rss" text="Mohammed Agbadi" title="Mohammed Agbadi" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCyjTtXnpBEI45ssSmt_VKrA" htmlUrl="https://www.youtube.com/channel/UCyjTtXnpBEI45ssSmt_VKrA"/>
+            <outline type="rss" text="Fernando Nunes (uploads) on YouTube" title="Fernando Nunes (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UU-V7mQ1rLC9QOLhbyqkj9ow" htmlUrl="https://youtube.com/playlist?list=UU-V7mQ1rLC9QOLhbyqkj9ow"/>
+            <outline type="rss" text="Buz Sheep (uploads) on YouTube" title="Buz Sheep (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UU7mzPc6HICOhTNCz5EsZjXA" htmlUrl="https://youtube.com/playlist?list=UU7mzPc6HICOhTNCz5EsZjXA"/>
+            <outline type="rss" text="The Drawing Database (uploads) on YouTube" title="The Drawing Database (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UUNPLX1hfy3Q8zr4eKvmhLGQ" htmlUrl="https://youtube.com/playlist?list=UUNPLX1hfy3Q8zr4eKvmhLGQ"/>
+        </outline>
+        <outline text="Nerd" title="Nerd">
+            <outline type="rss" text="Jovem Nerd" title="Jovem Nerd" xmlUrl="http://jovemnerd.ig.com.br/feed/" htmlUrl="https://jovemnerd.com.br"/>
+            <outline type="rss" text="Jovem Nerd (uploads) on YouTube" title="Jovem Nerd (uploads) on YouTube" xmlUrl="http://gdata.youtube.com/feeds/base/users/JovemNerd/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile" htmlUrl="https://youtube.com/playlist?list=UUmEClzCBDx-vrt0GuSKBd9g"/>
+            <outline type="rss" text="Ei Nerd" title="Ei Nerd" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCt_4wzTQqmcUvemNkeO0plA" htmlUrl="https://www.youtube.com/channel/UCt_4wzTQqmcUvemNkeO0plA"/>
+            <outline type="rss" text="Ei Nerd" title="Ei Nerd" xmlUrl="http://www.einerd.com.br/feed" htmlUrl="https://www.einerd.com.br"/>
+            <outline type="rss" text="Legião dos Heróis" title="Legião dos Heróis" xmlUrl="http://www.legiaodosherois.com.br/feed/" htmlUrl="https://www.legiaodosherois.com.br"/>
+        </outline>
+        <outline text="News" title="News">
+            <outline type="rss" text="BHAZ" title="BHAZ" xmlUrl="http://www.bhaz.com.br/feed/" htmlUrl="https://bhaz.com.br"/>
+            <outline type="rss" text="The Intercept" title="The Intercept" xmlUrl="https://theintercept.com/feed/?lang=pt" htmlUrl="https://theintercept.com"/>
+            <outline type="rss" text="Nexo Jornal" title="Nexo Jornal" xmlUrl="https://www.nexojornal.com.br/rss.xml" htmlUrl="https://www.nexojornal.com.br"/>
+            <outline type="rss" text="BBC Brasil - Brasil" title="BBC Brasil - Brasil" xmlUrl="http://feeds.bbci.co.uk/portuguese/brasil/rss.xml" htmlUrl="http://www.bbcbrasil.com"/>
+            <outline type="rss" text="B9" title="B9" xmlUrl="http://feeds.feedburner.com/brainstorm9" htmlUrl="https://www.b9.com.br"/>
+        </outline>
+        <outline text="Podcasts" title="Podcasts">
+            <outline type="rss" text="Capitalistas de Merda" title="Capitalistas de Merda" xmlUrl="https://capitalistasdemerda.com/episode/index.xml" htmlUrl="https://capitalistasdemerda.com"/>
+            <outline type="rss" text="Regras do Jogo - Holodeck" title="Regras do Jogo - Holodeck" xmlUrl="https://www.holodeckdesign.com.br/feed/podcast/" htmlUrl="https://www.holodeckdesign.com.br/blog-grid/"/>
+        </outline>
+        <outline text="Science" title="Science">
+            <outline type="rss" text="Nerdologia (uploads) on YouTube" title="Nerdologia (uploads) on YouTube" xmlUrl="http://gdata.youtube.com/feeds/base/users/nerdologia/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile" htmlUrl="https://youtube.com/playlist?list=UUlu474HMt895mVxZdlIHXEA"/>
+            <outline type="rss" text="Kurzgesagt – In a Nutshell" title="Kurzgesagt – In a Nutshell" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsXVk37bltHxD1rDPwtNM8Q" htmlUrl="https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q"/>
+        </outline>
+        <outline text="Technology" title="Technology">
+            <outline type="rss" text="MacMagazine" title="MacMagazine" xmlUrl="http://macmagazine.com.br/feed/" htmlUrl="https://macmagazine.uol.com.br"/>
+            <outline type="rss" text="Manual do Usuário" title="Manual do Usuário" xmlUrl="http://www.manualdousuario.net/feed/" htmlUrl="https://manualdousuario.net"/>
+            <outline type="rss" text="Diolinux" title="Diolinux" xmlUrl="http://feeds.feedburner.com/Diolinux" htmlUrl="https://diolinux.com.br"/>
+            <outline type="rss" text="Gizmodo Brasil" title="Gizmodo Brasil" xmlUrl="http://gizmodo.uol.com.br/feed/" htmlUrl="https://gizmodo.uol.com.br"/>
+            <outline type="rss" text="LinuxBuzz" title="LinuxBuzz" xmlUrl="http://www.linuxbuzz.com.br/feeds/posts/default?alt=rss" htmlUrl="https://www.linuxbuzz.com.br/"/>
+            <outline type="rss" text="Loop Infinito (uploads) on YouTube" title="Loop Infinito (uploads) on YouTube" xmlUrl="http://gdata.youtube.com/feeds/base/users/oloopinfinito/uploads?alt=rss&amp;v=2&amp;orderby=published&amp;client=ytapi-youtube-profile" htmlUrl="https://youtube.com/playlist?list=UUCbD39MVnMsTLGxsHLnOKlg"/>
+        </outline>
+        <outline text="Things" title="Things">
+            <outline type="rss" text="Stories by Startup da Real on Medium" title="Stories by Startup da Real on Medium" xmlUrl="https://medium.com/feed/@startupdareal" htmlUrl="https://medium.com/@startupdareal?source=rss-7e01442eec11------2"/>
+            <outline type="rss" text="Capitalistas de Merda" title="Capitalistas de Merda" xmlUrl="https://capitalistasdemerda.com/episode/index.xml" htmlUrl="https://capitalistasdemerda.com"/>
+            <outline type="rss" text="Pinho (uploads) on YouTube" title="Pinho (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UU7Xog4-zhRQKbahvs27I7Ow" htmlUrl="https://youtube.com/playlist?list=UU7Xog4-zhRQKbahvs27I7Ow"/>
+            <outline type="rss" text="TV Boitempo (uploads) on YouTube" title="TV Boitempo (uploads) on YouTube" xmlUrl="https://www.youtube.com/playlist?list=UUzwfw0utuEVxc4D6ggXcqiQ" htmlUrl="https://youtube.com/playlist?list=UUzwfw0utuEVxc4D6ggXcqiQ"/>
+            <outline type="rss" text="Internet Citizen" title="Internet Citizen" xmlUrl="https://blog.mozilla.org/internetcitizen/feed/" htmlUrl="https://blog.mozilla.org/internetcitizen"/>
+            <outline type="rss" text="The Mozilla Blog" title="The Mozilla Blog" xmlUrl="http://blog.mozilla.com/feed/" htmlUrl="https://blog.mozilla.org"/>
+            <outline type="rss" text="DuckDuckGo Blog" title="DuckDuckGo Blog" xmlUrl="https://spreadprivacy.com/feed" htmlUrl="https://spreadprivacy.com/"/>
+            <outline type="rss" text="Canal do Pirulla" title="Canal do Pirulla" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCdGpd0gNn38UKwoncZd9rmA" htmlUrl="https://www.youtube.com/channel/UCdGpd0gNn38UKwoncZd9rmA"/>
+        </outline>
+        <outline text="Trip" title="Trip">
+            <outline type="rss" text="Tudo viagem" title="Tudo viagem" xmlUrl="http://www.tudoviagem.com/feeds/posts/default" htmlUrl="https://www.tudodeviagem.com"/>
+            <outline type="rss" text="Melhores Destinos" title="Melhores Destinos" xmlUrl="http://www.melhoresdestinos.com.br/feed" htmlUrl="https://www.melhoresdestinos.com.br"/>
+            <outline type="rss" text="Mochileiros.com" title="Mochileiros.com" xmlUrl="http://mochilabrasil.uol.com.br/feed" htmlUrl="https://www.mochileiros.com/blog"/>
+        </outline>
+        <outline text="VFX" title="VFX">
+            <outline type="rss" text="DucVu FX" title="DucVu FX" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC5ZauAWNyh931gRJUqB1QPw" htmlUrl="https://www.youtube.com/channel/UC5ZauAWNyh931gRJUqB1QPw"/>
+            <outline type="rss" text="Gabriel Aguiar Prod." title="Gabriel Aguiar Prod." xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCtb1s859RTxx-RIgFs5ZVQA" htmlUrl="https://www.youtube.com/channel/UCtb1s859RTxx-RIgFs5ZVQA"/>
+        </outline>
+    </body>
+</opml>
