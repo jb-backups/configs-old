@@ -5,6 +5,7 @@ h() history;
 hg() {
   history | grep $1;
 }
+# l() ls -lah;
 lsg() {
   ls | tr '[:upper:][:lower:]' '[:lower:][:lower:]' | grep $1;
 }
