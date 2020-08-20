@@ -32,32 +32,32 @@
 
 ```css
 body {
-	color: #dfe6e9;
+  color: #dfe6e9;
 }
 
 body, input, textarea {
-	background: #212529;
+  background: #212529;
 }
 
 a {
-    color: #faa613;
+  color: #faa613;
 }
 
 a:hover,
 a:focus {
-    color: #f33a3a;
+  color: #f33a3a;
 }
 
 a:visited {
-	color: #b1740f;
+  color: #b1740f;
 }
 
 figcaption {
-	color: #636e72 !important;
+  color: #636e72 !important;
 }
 
 .entry-title {
-	color: #dfe6e9;
+  color: #dfe6e9;
 }
 ```
 

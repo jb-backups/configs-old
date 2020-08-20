@@ -1,13 +1,13 @@
 # Configuracões
 
 - Operational System
-  - [Linux](https://github.com/jonathanbergson/configs/blob/master/docs/operational%20system/LINUX.md)
-  - [MacOS](https://github.com/jonathanbergson/configs/blob/master/docs/operational%20system/MACOS.md)
-  - [Windows](https://github.com/jonathanbergson/configs/blob/master/docs/operational%20system/WINDOWS.md)
+  - [Linux](https://github.com/jonathanbergson/configs/blob/master/docs/LINUX.md)
+  - [MacOS](https://github.com/jonathanbergson/configs/blob/master/docs/MACOS.md)
+  - [Windows](https://github.com/jonathanbergson/configs/blob/master/docs/WINDOWS.md)
 - Other
-  - [Browser](https://github.com/jonathanbergson/configs/blob/master/docs/other/BROWSER.md)
-  - [Text Editor](https://github.com/jonathanbergson/configs/blob/master/docs/other/EDITORS.md)
-  - [Softwares](https://github.com/jonathanbergson/configs/blob/master/docs/other/SOFTWARES.md)
+  - [Browser](https://github.com/jonathanbergson/configs/blob/master/docs/BROWSER.md)
+  - [Text Editor](https://github.com/jonathanbergson/configs/blob/master/docs/EDITORS.md)
+  - [Softwares](https://github.com/jonathanbergson/configs/blob/master/docs/SOFTWARES.md)
 - [Old Settings](https://github.com/jonathanbergson/configs/blob/master/docs/OLD.md)
 
 ## Developer Tools
