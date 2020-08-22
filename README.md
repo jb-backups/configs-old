@@ -8,7 +8,6 @@
   - [Browser](https://github.com/jonathanbergson/configs/blob/master/docs/BROWSER.md)
   - [Text Editor](https://github.com/jonathanbergson/configs/blob/master/docs/EDITORS.md)
   - [Softwares](https://github.com/jonathanbergson/configs/blob/master/docs/SOFTWARES.md)
-- [Old Settings](https://github.com/jonathanbergson/configs/blob/master/docs/OLD.md)
 
 ## Developer Tools
 
