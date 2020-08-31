@@ -100,12 +100,13 @@ Navegadores:
 ```shell
 brew cask install blisk
 brew cask install brave-browser
-brew cask install google-chrome
-brew cask install google-chrome-canary
 brew cask install chromium
 brew cask install firefox
-brew cask install homebrew/cask-versions/firefox-developer-edition
 brew cask install firefox-nightly
+brew cask install google-chrome
+brew cask install google-chrome-canary
+brew cask install homebrew/cask-versions/firefox-developer-edition
+brew cask install microsoft-edge
 brew cask install opera
 brew cask install opera-developer
 brew cask install torbrowser
@@ -117,11 +118,12 @@ Editores de texto:
 brew cask install android-studio
 brew cask install atom
 brew cask install hyper
+brew cask install intellij-idea # JetBrains
 brew cask install iterm2
 brew cask install mark-text # Markdown Editor
 brew cask install sublime-text
 brew cask install visual-studio-code
-brew cask install webstorm
+brew cask install webstorm # JetBrains
 ```
 
 Ferramentas de desenvolvimento:
@@ -187,6 +189,7 @@ brew cask install blender
 brew cask install gimp
 brew cask install inkscape
 brew cask install krita
+brew cask install sketchbook
 ```
 
 Programas para pixel art:
@@ -226,7 +229,7 @@ brew cask install balenaetcher
 brew cask install bartender
 brew cask install calibre # Conversor de e-Books
 brew cask install cheatsheet
-brew cask install cleanmymac
+brew cask install cleanmymac # CleanMyMac X
 brew cask install command-tab-plus
 brew cask install contexts
 brew cask install deepl # Tipo Google Traduto
