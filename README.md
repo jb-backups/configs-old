@@ -209,3 +209,9 @@ export NVM_DIR="$HOME/.nvm"
 
 nvm install --lts
 ```
+
+## Docker
+
+```shell
+docker container run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+```
