@@ -64,6 +64,7 @@ figcaption {
 - [Nexo Jornal](https://www.nexojornal.com.br/)
 
 ```css
+[class^="PaywallBumper__wrap-container"],
 [class^="PaywallBanner__container"],
 [class^="Datawall__wrap-container"] {
   display: none;
