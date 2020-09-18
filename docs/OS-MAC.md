@@ -7,6 +7,11 @@
 Instalar ferramentas do terminal
 
 ```shell
+# Listar docker containers
+brew install ctop
+
+# Listar diretórios
+# tree -L 1
 brew install tree
 ```
 
@@ -109,7 +114,6 @@ brew cask install webstorm # JetBrains
 Ferramentas de desenvolvimento:
 
 ```shell
-brew install ctop # Manage docker containers
 brew cask install dash
 brew cask install docker
 brew cask install github
