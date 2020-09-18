@@ -1,9 +1,9 @@
 # Configuracões
 
 - Operational System
-  - [Linux](https://github.com/jonathanbergson/configs/blob/master/docs/LINUX.md)
-  - [MacOS](https://github.com/jonathanbergson/configs/blob/master/docs/MACOS.md)
-  - [Windows](https://github.com/jonathanbergson/configs/blob/master/docs/WINDOWS.md)
+  - [Linux](https://github.com/jonathanbergson/configs/blob/master/docs/OS-LINUX.md)
+  - [MacOS](https://github.com/jonathanbergson/configs/blob/master/docs/OS-MACOS.md)
+  - [Windows](https://github.com/jonathanbergson/configs/blob/master/docs/OS-WINDOWS.md)
 - Other
   - [Browser](https://github.com/jonathanbergson/configs/blob/master/docs/BROWSER.md)
   - [Text Editor](https://github.com/jonathanbergson/configs/blob/master/docs/EDITORS.md)
@@ -11,7 +11,25 @@
 
 ## Developer Tools
 
+### Homebrew
+
+O mac não tem um apt-get, mas tem o [Homebrew](https://brew.sh/index_pt-br) para instalar e gerenciar, ferramentas de linha de comando e softwares.
+
+Instalar o gerenciador de pacotes:
+
+```shell
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 ### Git
+
+Instalar ferramenta de controle de versão:
+
+```shell
+# MacOS
+brew install git
+brew install git-flow-avh
+```
 
 Configurar informações do [git](https://git-scm.com):
 
@@ -187,10 +205,7 @@ asdf install nodejs latest
 asdf global nodejs 13.11.0
 ```
 
-```shell
-npm i -g generator-editorconfig gitignore nodemon yarn yo
-npm i -g create-react-app react-native-cli
-```
+###### Configurar NPM e pacotes globais:
 
 ```shell
 npm config set init-author-name "Your name"
@@ -199,7 +214,12 @@ npm config set init-author-url "http://domain.com"
 npm config set init-license "MIT"
 ```
 
-###### Modo antigo:
+```shell
+npm i -g generator-editorconfig gitignore nodemon yarn yo
+npm i -g create-react-app react-native-cli
+```
+
+###### Modo de instalação via NVM:
 
 ```shell
 brew install nvm
