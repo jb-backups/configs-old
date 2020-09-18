@@ -275,21 +275,21 @@ brew cask install xbox360-controller-driver-unofficial
 
 Cantos de acesso rápido:
 
-![Preferências dos cantos de acesso rápido](../../docs/macos-settings-hot-corners.png)
+![Preferências dos cantos de acesso rápido](./screenshots/macos-settings-hot-corners.png)
 
 Teclado:
 
-![Preferências do teclado](../../docs/macos-settings-keyboard-input-sources.png)
+![Preferências do teclado](./screenshots/macos-settings-keyboard-input-sources.png)
 
 Configurar arrastar e soltar no trackpad:
 
-![Preferências do trackpad](../../docs/macos-settings-accessibility.png)
+![Preferências do trackpad](./screenshots/macos-settings-accessibility.png)
 
 ### Dashboard
 
 Organização de apps:
 
-![Organização da dashboard dos meus apps](../../docs/macos-dashboard-minimal.png)
+![Organização da dashboard dos meus apps](./screenshots/macos-dashboard-minimal.png)
 
 ### Softwares
 
@@ -297,14 +297,14 @@ Organização de apps:
 
 Atalho `Command-Tab`:
 
-![Configurações do atalho Command-Tab](../../docs/macos-apps-contexts-command-tab.png)
+![Configurações do atalho Command-Tab](./screenshots/macos-apps-contexts-command-tab.png)
 
 Atalho `Option-Tab`:
 
-![Configurações do atalho Option-Tab](../../docs/macos-apps-contexts-option-tab.png.png)
+![Configurações do atalho Option-Tab](./screenshots/macos-apps-contexts-option-tab.png.png)
 
 #### Dozer
 
 Configurações:
 
-![Configurações do Dozer](../../docs/macos-apps-dozer-settings.png)
+![Configurações do Dozer](./screenshots/macos-apps-dozer-settings.png)
