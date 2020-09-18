@@ -188,7 +188,8 @@ asdf global nodejs 13.11.0
 ```
 
 ```shell
-npm i -g create-react-app generator-editorconfig gitignore nodemon react-native-cli yarn yo
+npm i -g generator-editorconfig gitignore nodemon yarn yo
+npm i -g create-react-app react-native-cli
 ```
 
 ```shell
