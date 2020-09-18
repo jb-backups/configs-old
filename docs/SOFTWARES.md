@@ -8,6 +8,7 @@ Temas:
 hyper i hyperocean
 hyper i hyper-relaxed
 hyper i hyper-corubo
+hyper i hyper-firefox-devtools
 ```
 
 ## Telegram
