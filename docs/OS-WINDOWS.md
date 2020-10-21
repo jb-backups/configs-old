@@ -52,3 +52,11 @@ Utilitários:
 ```shell
 choco install 1password
 ```
+
+## Sistema
+
+### Dashboard
+
+Organização de apps:
+
+![Organização da dashboard dos meus apps](./screenshots/windows-dashboard.png)
