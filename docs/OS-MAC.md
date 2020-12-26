@@ -76,10 +76,6 @@ mas install 1266674560    # Wallpaper Wizard
 
 ## Softwares
 
-Download:
-
-- [Day-O](https://shauninman.com/archive/2020/04/08/day_o_mac_menu_bar_clock_for_catalina)
-
 Navegadores:
 
 ```shell
