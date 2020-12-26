@@ -2,7 +2,7 @@
 
 - Operational System
   - [Linux](https://github.com/jonathanbergson/configs/blob/master/docs/OS-LINUX.md)
-  - [MacOS](https://github.com/jonathanbergson/configs/blob/master/docs/OS-MACOS.md)
+  - [MacOS](https://github.com/jonathanbergson/configs/blob/master/docs/OS-MAC.md)
   - [Windows](https://github.com/jonathanbergson/configs/blob/master/docs/OS-WINDOWS.md)
 - Other
   - [Browser](https://github.com/jonathanbergson/configs/blob/master/docs/BROWSER.md)

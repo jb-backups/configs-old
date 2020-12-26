@@ -22,14 +22,14 @@ brew install tree
 Fontes que você vai precisar para programar no mac:
 
 ```shell
-brew cask install homebrew/cask-fonts/font-fira-code
-brew cask install homebrew/cask-fonts/font-source-code-pro
+brew install homebrew/cask-fonts/font-fira-code --cask
+brew install homebrew/cask-fonts/font-source-code-pro --cask
 ```
 
 Outras fontes:
 
 ```shell
-brew cask install homebrew/cask-fonts/font-sans-forgetica
+brew install homebrew/cask-fonts/font-sans-forgetica --cask
 ```
 
 ## AppStore:
@@ -83,156 +83,159 @@ Download:
 Navegadores:
 
 ```shell
-brew cask install blisk
-brew cask install brave-browser
-brew cask install chromium
-brew cask install firefox
-brew cask install firefox-nightly
-brew cask install google-chrome
-brew cask install google-chrome-canary
-brew cask install homebrew/cask-versions/firefox-developer-edition
-brew cask install microsoft-edge
-brew cask install opera
-brew cask install opera-developer
-brew cask install torbrowser
+brew install blisk --cask
+brew install brave-browser --cask
+brew install chromium --cask
+brew install firefox --cask
+brew install firefox-nightly --cask
+brew install google-chrome --cask
+brew install google-chrome-canary --cask
+brew install homebrew/cask-versions/firefox-developer-edition --cask
+brew install microsoft-edge --cask
+brew install opera --cask
+brew install opera-developer --cask
+brew install torbrowser --cask
 ```
 
 Editores de texto:
 
 ```shell
-brew cask install android-studio
-brew cask install atom
-brew cask install hyper
-brew cask install intellij-idea # JetBrains
-brew cask install iterm2
-brew cask install mark-text # Markdown Editor
-brew cask install sublime-text
-brew cask install visual-studio-code
-brew cask install webstorm # JetBrains
+brew xinstall android-studio --cask
+brew xinstall atom --cask
+brew xinstall hyper --cask
+brew install intellij-idea --cask  # JetBrains
+brew install iterm2 --cask
+brew install mark-text --cask # Markdown Editor
+brew install sublime-text --cask
+brew install visual-studio-code --cask
+brew install webstorm --cask # JetBrains
 ```
 
 Ferramentas de desenvolvimento:
 
 ```shell
-brew cask install dash
-brew cask install docker
-brew cask install github
-brew cask install gitkraken
-brew cask install insomnia
-brew cask install postman
-brew cask install react-native-debugger
-brew cask install reactotron
-brew cask install sourcetree
+brew install dash --cask
+brew install docker --cask
+brew install github --cask
+brew install gitkraken --cask
+brew install insomnia --cask
+brew install postman --cask
+brew install react-native-debugger --cask
+brew install reactotron --cask
+brew install sourcetree --cask
 ```
 
 Gerenciadores de banco de dados:
 
 ```shell
-brew cask install datagrip
-brew cask install navicat-for-postgresql
-brew cask install pgadmin4
-brew cask install postico
-brew cask install sequel-pro
+brew install datagrip --cask
+brew install navicat-for-postgresql --cask
+brew install pgadmin4 --cask
+brew install postico --cask
+brew install sequel-pro --cask
 ```
 
 Programas de mensagem:
 
 ```shell
-brew cask install discord
-brew cask install franz
-brew cask install messenger
-brew cask install slack
-brew cask install telegram-desktop
-brew cask install whatsapp
+brew install discord --cask
+brew install franz --cask
+brew install messenger --cask
+brew install slack --cask
+brew install telegram-desktop --cask
+brew install whatsapp --cask
 ```
 
 Programas de email:
 
 ```shell
-brew cask install mailspring
-brew cask install thunderbird
+brew install mailspring --cask
+brew install thunderbird --cask
 ```
 
 Programas de música e mídia:
 
 ```shell
-brew cask install audacity
-brew cask install deezer
-brew cask install fl-studio
-brew cask install iina
-brew cask install lmms
-brew cask install spotify
-brew cask install stremio # Tipo o Pop Corntime
-brew cask install vlc
+brew install audacity --cask
+brew install deezer --cask
+brew install fl-studio --cask
+brew install iina --cask
+brew install lmms --cask
+brew install spotify --cask
+brew install stremio --cask # Tipo o Pop Corntime
+brew install vlc --cask
 ```
 
 Programas para designer:
 
 ```shell
-brew cask install blender
-brew cask install gimp
-brew cask install inkscape
-brew cask install krita
-brew cask install sketchbook
+brew install blender --cask
+brew install gimp --cask
+brew install inkscape --cask
+brew install krita --cask
+brew install sketchbook --cask
 ```
 
 Programas para pixel art:
 
 ```shell
-brew cask install aseprite
-brew cask install hexels
-brew cask install magicavoxel
+brew install aseprite --cask
+brew install hexels --cask
+brew install magicavoxel --cask
 ```
 
 Programas para game developer:
 
 ```shell
 brew install mono
-brew cask install dotnet-sdk
-brew cask install godot
-brew cask install unity-hub
-brew cask install visual-studio
+brew install dotnet-sdk --cask
+brew install godot --cask
+brew install unity-hub --cask
+brew install visual-studio --cask
 ```
 
 Apps para jogar:
 
 ```shell
-brew cask install battle-net
-brew cask install epic-games
-brew cask install openemu
-brew cask install retroarch-metal
-brew cask install steam
+brew install battle-net --cask
+brew install epic-games --cask
+brew install openemu --cask
+brew install retroarch-metal --cask
+brew install steam --cask
 ```
 
 Utilitários:
 
 ```shell
-brew cask install 1password
-brew cask install alfred
-brew cask install balenaetcher
-brew cask install bartender
-brew cask install calibre # Conversor de e-Books
-brew cask install cheatsheet
-brew cask install cleanmymac # CleanMyMac X
-brew cask install command-tab-plus
-brew cask install contexts
-brew cask install deepl # Tipo Google Traduto
-brew cask install dozer # Tipo o Vanilla e Bartender
-brew cask install google-backup-and-sync # Google Drive
-brew cask install hiddenbar # Tipo o Vanilla e Bartender
-brew cask install iexplorer
-brew cask install onlyoffice
-brew cask install rocket
-brew cask install vanilla
-brew cask install virtualbox
-brew cask install webtorrent
+brew install 1password --cask
+brew install alfred --cask
+brew install balenaetcher --cask
+brew install bartender --cask
+brew install calibre --cask # Conversor de e-Books
+brew install cheatsheet --cask
+brew install cleanmymac  --cask# CleanMyMac X
+brew install command-tab-plus --cask
+brew install contexts --cask
+brew install day-o --cask
+brew install deepl --cask # Tipo Google Traduto
+brew install dozer --cask # Tipo o Vanilla e Bartender
+brew install google-backup-and-sync --cask # Google Drive
+brew install google-drive-file-stream --cask
+brew install hiddenbar --cask # Tipo o Vanilla e Bartender
+brew install iexplorer --cask
+brew install keeweb --cask
+brew install onlyoffice --cask
+brew install rocket --cask
+brew install vanilla --cask
+brew install virtualbox --cask
+brew install webtorrent --cask
 ```
 
 Proteção de tela, frescura de quem usa mac:
 
 ```shell
-brew cask install fliqlo
-brew cask install padbury-clock
+brew install fliqlo --cask
+brew install padbury-clock --cask
 ```
 
 ## Drivers
@@ -240,9 +243,9 @@ brew cask install padbury-clock
 Instalar drivers:
 
 ```shell
-brew cask install logitech-options
-brew cask install homebrew/cask-drivers/razer-synapse
-brew cask install xbox360-controller-driver-unofficial
+brew install logitech-options --cask
+brew install homebrew/cask-drivers/razer-synapse --cask
+brew install xbox360-controller-driver-unofficial --cask
 ```
 
 ## iTerm2
