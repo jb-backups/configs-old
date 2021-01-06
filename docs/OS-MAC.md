@@ -222,6 +222,7 @@ brew install iexplorer --cask
 brew install keeweb --cask
 brew install onlyoffice --cask
 brew install rocket --cask
+brew install the-unarchiver --cask
 brew install vanilla --cask
 brew install virtualbox --cask
 brew install webtorrent --cask
