@@ -38,12 +38,14 @@ git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
 
-Backup de repositórios
+Backup de repositórios:
 
 ```shell
 git remote set-url --add --push origin git://original/repo.git
 git remote set-url --add --push origin git://another/repo.git
 ```
+
+[Tutorial](https://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes):
 
 ### ssh
 
