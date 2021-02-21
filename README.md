@@ -45,7 +45,7 @@ git remote set-url --add --push origin git://original/repo.git
 git remote set-url --add --push origin git://another/repo.git
 ```
 
-[Tutorial](https://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes):
+> [Tutorial](https://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes)
 
 ### ssh
 
