@@ -28,7 +28,11 @@
 
 ## Browser Websites Style
 
-- [Manual do Usuário.net](https://manualdousuario.net)
+#### [Web Telegram](https://web.telegram.org/): 
+
+- [Download](https://userstyles.org/styles/170604/telegram-modern)
+
+#### [Manual do Usuário.net](https://manualdousuario.net)
 
 Configuração:
 
@@ -66,21 +70,26 @@ figcaption {
 }
 ```
 
-- [Trello Semanal](https://trello.com/b/8w2DpoTb/planejamento-semanal)
+#### [Mac Magazine](https://macmagazine.com.b)
 
 Configuração:
 
-- Nome: Trello Semanal
-- URL: https://trello.com/b/8w2DpoTb/planejamento-semanal
+- Nome: Mac Magazine
+- URL: https://macmagazine.com.b
 
 ```css
-.list-wrapper:nth-child(6) > .list,
-.list-wrapper:nth-child(7) > .list {
-    background-color: rgba(235, 236, 240, .4);
+#bannertopo,
+#banner-300x250-area {
+    display: none !important;
 }
 ```
 
-- [Nexo Jornal](https://www.nexojornal.com.br/)
+#### [Nexo Jornal](https://www.nexojornal.com.br/)
+
+Configuração:
+
+- Nome: Nexo Jornal
+- URL: https://www.nexojornal.com.br/
 
 ```css
 [class^="PaywallBumper__wrap-container"],
@@ -95,4 +104,16 @@ Configuração:
 }
 ```
 
-- [Web Telegram](https://web.telegram.org/): [Download](https://userstyles.org/styles/170604/telegram-modern)
+#### [Trello Semanal](https://trello.com/b/8w2DpoTb/planejamento-semanal)
+
+Configuração:
+
+- Nome: Trello Semanal
+- URL: https://trello.com/b/8w2DpoTb/planejamento-semanal
+
+```css
+.list-wrapper:nth-child(6) > .list,
+.list-wrapper:nth-child(7) > .list {
+    background-color: rgba(235, 236, 240, .4);
+}
+```
