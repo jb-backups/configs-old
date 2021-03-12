@@ -28,8 +28,12 @@
 
 ## Browser Websites Style
 
-#### [Web Telegram](https://web.telegram.org/): 
+### Web Telegram
 
+Configuração:
+
+- Nome: Web Telegram
+- URL: [https://web.telegram.org](https://web.telegram.org/)
 - [Download](https://userstyles.org/styles/170604/telegram-modern)
 
 ### Manual do Usuário.net
