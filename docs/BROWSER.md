@@ -32,12 +32,12 @@
 
 - [Download](https://userstyles.org/styles/170604/telegram-modern)
 
-#### [Manual do Usuário.net](https://manualdousuario.net)
+### Manual do Usuário.net
 
 Configuração:
 
 - Nome: Manual do Usuário
-- URLs no domínio: manualdousuario.net
+- URL: [manualdousuario.net](https://manualdousuario.net)
 
 ```css
 body {
@@ -70,12 +70,12 @@ figcaption {
 }
 ```
 
-#### [Mac Magazine](https://macmagazine.com.b)
+### Mac Magazine
 
 Configuração:
 
 - Nome: Mac Magazine
-- URL: https://macmagazine.com.b
+- URL: [https://macmagazine.com.b](https://macmagazine.com.br)
 
 ```css
 #bannertopo,
@@ -84,12 +84,12 @@ Configuração:
 }
 ```
 
-#### [Nexo Jornal](https://www.nexojornal.com.br/)
+### Nexo Jornal
 
 Configuração:
 
 - Nome: Nexo Jornal
-- URL: https://www.nexojornal.com.br/
+- URL: [https://www.nexojornal.com.br/](https://www.nexojornal.com.br/)
 
 ```css
 [class^="PaywallBumper__wrap-container"],
@@ -101,19 +101,5 @@ Configuração:
 .datawall-bump {
   overflow-x: auto;
   overflow-y: auto;
-}
-```
-
-#### [Trello Semanal](https://trello.com/b/8w2DpoTb/planejamento-semanal)
-
-Configuração:
-
-- Nome: Trello Semanal
-- URL: https://trello.com/b/8w2DpoTb/planejamento-semanal
-
-```css
-.list-wrapper:nth-child(6) > .list,
-.list-wrapper:nth-child(7) > .list {
-    background-color: rgba(235, 236, 240, .4);
 }
 ```
