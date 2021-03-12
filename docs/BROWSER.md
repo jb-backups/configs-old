@@ -31,16 +31,12 @@
 ### Web Telegram
 
 Configuração:
-
-- Nome: Web Telegram
-- URL: [https://web.telegram.org](https://web.telegram.org/)
+- URL: [https://web.telegram.org](https://web.telegram.org)
 - [Download](https://userstyles.org/styles/170604/telegram-modern)
 
-### Manual do Usuário.net
+### Manual do Usuário
 
 Configuração:
-
-- Nome: Manual do Usuário
 - URL: [manualdousuario.net](https://manualdousuario.net)
 
 ```css
@@ -77,9 +73,7 @@ figcaption {
 ### Mac Magazine
 
 Configuração:
-
-- Nome: Mac Magazine
-- URL: [https://macmagazine.com.b](https://macmagazine.com.br)
+- URL: [https://macmagazine.com.br](https://macmagazine.com.br)
 
 ```css
 #bannertopo,
@@ -91,9 +85,7 @@ Configuração:
 ### Nexo Jornal
 
 Configuração:
-
-- Nome: Nexo Jornal
-- URL: [https://www.nexojornal.com.br/](https://www.nexojornal.com.br/)
+- URL: [https://www.nexojornal.com.br](https://www.nexojornal.com.br)
 
 ```css
 [class^="PaywallBumper__wrap-container"],
@@ -105,5 +97,16 @@ Configuração:
 .datawall-bump {
   overflow-x: auto;
   overflow-y: auto;
+}
+```
+
+### YouTube
+
+Configuração:
+- URL: [https://www.youtube.com](https://www.youtube.com)
+
+```css
+#secondary {
+  display: none;
 }
 ```
