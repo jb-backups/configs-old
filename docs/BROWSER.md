@@ -77,7 +77,8 @@ Configuração:
 
 ```css
 #bannertopo,
-#banner-300x250-area {
+#banner-300x250-area,
+#onesignal-slidedown-container {
     display: none !important;
 }
 ```
