@@ -12,6 +12,8 @@ source $(dirname $0)/snippets/outer.sh
 # source $(dirname $0)/snippets/vagrant.sh
 source $(dirname $0)/snippets/yarn.sh
 
+source $(dirname $0)/trackco.sh
+
 mybash() source ~/bash/bash.sh;
 
 # echo "My shell snippets is loaded!"
