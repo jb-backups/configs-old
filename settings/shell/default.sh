@@ -14,6 +14,8 @@ source $(dirname $0)/snippets/yarn.sh
 
 source $(dirname $0)/trackco.sh
 
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#95a5a6,bg=#34495e"
+
 mybash() source ~/bash/bash.sh;
 
 # echo "My shell snippets is loaded!"
